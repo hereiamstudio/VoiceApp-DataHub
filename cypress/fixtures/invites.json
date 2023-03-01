@@ -1,0 +1,19 @@
+{
+    "seed": {
+        "invites/bFOn5x9zDhRVOcxMSFiN": {
+            "user": {
+                "company_name": "Example company",
+                "first_name": "Example",
+                "is_available_for_projects": true,
+                "country": "FR",
+                "email": "voiceappinviteduser@domain.com",
+                "last_name": "Invited User",
+                "role": "enumerator"
+            },
+            "created_at": "2022-02-21T14:23:23.000Z",
+            "token": "bFOn5x9zDhRVOcxMSFiN",
+            "status": "pending",
+            "invited_by": "voiceappadministrator@domain.com"
+        }
+    }
+}

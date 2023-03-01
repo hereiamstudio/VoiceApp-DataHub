@@ -1,0 +1,15 @@
+{
+    "user": {
+        "is_archived": false,
+        "role": "administrator",
+        "email": "administrator@domain.com",
+        "first_name": "Administrator",
+        "last_name": "User",
+        "active": 1644872285499,
+        "uid": "0RMStY58dhwRrsx6cd34x",
+        "token": "",
+        "refreshToken": ""
+    },
+    "expires": "3000-01-01T00:00:00.000Z",
+    "accessToken": "abcdefghidjklmnopqrst"
+}

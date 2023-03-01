@@ -1,0 +1,2899 @@
+{
+    "empty": {
+        "title": "",
+        "description": "",
+        "location_country": "",
+        "location_region": "",
+        "is_active": ""
+    },
+    "invalid": {
+        "title": "Elit proident laboris enim incididunt quis ex mollit. Elit proident laboris enim incididunt quis ex mollit.",
+        "description": "Velit reprehenderit culpa ipsum quis laborum aliquip deserunt fugiat mollit enim aute magna aliquip. Qui veniam aliqua veniam dolore occaecat nostrud irure. Elit pariatur nisi esse labore fugiat sint mollit ipsum veniam exercitation. Consectetur excepteur quis velit culpa irure irure duis nulla fugiat ullamco. Sint dolore laborum excepteur eu do aliqua ipsum enim. Velit reprehenderit culpa ipsum quis laborum aliquip deserunt fugiat mollit enim aute magna aliquip. Qui veniam aliqua veniam dolore occ",
+        "location_country": "INVALID",
+        "location_region": "",
+        "is_active": "INVALID"
+    },
+    "successful": {
+        "title": "An example project title",
+        "description": "An example project decsription",
+        "location_country": "United States",
+        "location_region": "New York City",
+        "is_active": true
+    },
+    "seed": {
+        "projects/LfM6kx1q7CqHOn85Cd8y": {
+            "created_at": "2022-02-15T19:28:53.000Z",
+            "is_archived": false,
+            "location": {"country": "NG", "region": "Lagos"},
+            "title": "A complete project example",
+            "assigned_users_ids": ["rMiClQoCHWRV6C5an3jvMGisWFQ2", "8GU17rVu2XNxCEmbgYPD0hNsS4A2"],
+            "is_active": true,
+            "description": "This is an example of a complete end-to-end project.",
+            "assigned_users": [
+                {
+                    "first_name": "Example",
+                    "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2",
+                    "last_name": "Assessment Lead"
+                },
+                {
+                    "id": "8GU17rVu2XNxCEmbgYPD0hNsS4A2",
+                    "first_name": "Example",
+                    "last_name": "Enumerator"
+                }
+            ],
+            "updated_at": "2022-03-09T13:05:43.298Z",
+            "updated_by": {
+                "last_name": "Administrator",
+                "first_name": "Example",
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2"
+            },
+            "created_by": {
+                "first_name": "Example",
+                "last_name": "Administrator",
+                "uid": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2"
+            },
+            "interviews_count": 2
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/7fhRHzkk811XoMhcyr9t": {
+            "updated_at": "2022-02-21T20:26:42.628Z",
+            "title": "Exemple d'entretien en français",
+            "primary_language": "fr",
+            "updated_by": {
+                "first_name": "Sean",
+                "id": "0QyTedUZ8WQVnMgpb6fRF64RD462",
+                "last_name": "Admin"
+            },
+            "is_archived": false,
+            "consent_step_1": {
+                "title": "Exemple de titre de consentement en français",
+                "confirmation_options": [
+                    {
+                        "label": "Exemple de confirmation de consentement en français option 1",
+                        "order": 1,
+                        "is_correct": true
+                    },
+                    {
+                        "is_correct": false,
+                        "label": "Exemple de confirmation de consentement en français option 2",
+                        "order": 2
+                    },
+                    {
+                        "is_correct": false,
+                        "order": 3,
+                        "label": "Exemple de confirmation de consentement en français option 3"
+                    }
+                ],
+                "script": "Exemple de script de consentement en français",
+                "confirmation_question": "Exemple de question de confirmation de consentement en français",
+                "description": ""
+            },
+            "created_by": {
+                "first_name": "Example",
+                "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2",
+                "last_name": "Assessment Lead"
+            },
+            "responses_count": 1,
+            "assigned_users_ids": ["rMiClQoCHWRV6C5an3jvMGisWFQ2", "8GU17rVu2XNxCEmbgYPD0hNsS4A2"],
+            "project": {"title": "Example project", "id": "LfM6kx1q7CqHOn85Cd8y"},
+            "assigned_users": [
+                {
+                    "first_name": "Example",
+                    "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2",
+                    "last_name": "Assessment Lead"
+                },
+                {
+                    "last_name": "Enumerator",
+                    "id": "8GU17rVu2XNxCEmbgYPD0hNsS4A2",
+                    "first_name": "Example"
+                }
+            ],
+            "created_at": "2022-02-15T19:29:53.047Z",
+            "is_active": true,
+            "consent_step_2": null,
+            "status": "active",
+            "description": "Nisi magna elit ad ex tempor elit officia. Laboris labore aliqua voluptate aliqua magna esse do culpa in sint sit aute aliqua proident."
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/7fhRHzkk811XoMhcyr9t/interviews_public/7fhRHzkk811XoMhcyr9t": {
+            "responses_count": 1,
+            "description": "Nisi magna elit ad ex tempor elit officia. Laboris labore aliqua voluptate aliqua magna esse do culpa in sint sit aute aliqua proident.",
+            "is_archived": false,
+            "primary_language": "fr",
+            "created_at": "2022-02-15T19:29:53.047Z",
+            "consent_step_2": null,
+            "title": "Example French Interview",
+            "assigned_users_ids": ["rMiClQoCHWRV6C5an3jvMGisWFQ2", "8GU17rVu2XNxCEmbgYPD0hNsS4A2"],
+            "status": "active",
+            "is_active": true,
+            "consent_step_1": {
+                "confirmation_options": [
+                    {
+                        "order": 1,
+                        "is_correct": true,
+                        "label": "Exemple de confirmation de consentement en français option 1"
+                    },
+                    {
+                        "order": 2,
+                        "is_correct": false,
+                        "label": "Exemple de confirmation de consentement en français option 2"
+                    },
+                    {
+                        "order": 3,
+                        "is_correct": false,
+                        "label": "Exemple de confirmation de consentement en français option 3"
+                    }
+                ],
+                "confirmation_question": "Exemple de question de confirmation de consentement en français",
+                "title": "Exemple de titre de consentement en français",
+                "script": "Exemple de script de consentement en français",
+                "description": ""
+            },
+            "project": {"title": "Example project", "id": "LfM6kx1q7CqHOn85Cd8y"}
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/7fhRHzkk811XoMhcyr9t/questions/zbZcIjIfd1BwWmRoyl9x": {
+            "translations": {
+                "en": {
+                    "title": "Example of an open-ended question title",
+                    "description": "Example of an open-response question description"
+                },
+                "fr": {
+                    "title": "Exemple de titre de question à réponse ouverte",
+                    "description": "Exemple de description de question à réponse ouverte"
+                }
+            },
+            "options": [],
+            "type": "free_text",
+            "title": "Exemple de titre de question à réponse ouverte",
+            "is_custom": false,
+            "created_at": "2022-02-21T20:26:31.578Z",
+            "project": {"title": "Example project", "id": "LfM6kx1q7CqHOn85Cd8y"},
+            "is_active": true,
+            "primary_language": "fr",
+            "created_by": {
+                "first_name": "Sean",
+                "id": "0QyTedUZ8WQVnMgpb6fRF64RD462",
+                "last_name": "Admin"
+            },
+            "interview": {"title": "Example French Interview", "id": "7fhRHzkk811XoMhcyr9t"},
+            "order": 100,
+            "languages": ["fr", "en"],
+            "description": "Exemple de description de question à réponse ouverte",
+            "is_archived": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/7fhRHzkk811XoMhcyr9t/questions/zbZcIjIfd1BwWmRoyl9x/questions_public/zbZcIjIfd1BwWmRoyl9x": {
+            "is_active": true,
+            "options": [],
+            "is_archived": false,
+            "type": "free_text",
+            "interview": {"title": "Example French Interview", "id": "7fhRHzkk811XoMhcyr9t"},
+            "title": "Exemple de titre de question à réponse ouverte",
+            "description": "Exemple de description de question à réponse ouverte",
+            "project": {"title": "Example project", "id": "LfM6kx1q7CqHOn85Cd8y"},
+            "order": 100
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/7fhRHzkk811XoMhcyr9t/responses/19zoLrCX32fVY6Mlpg9H": {
+            "end_time": "2022-02-18T16:02:58.000Z",
+            "start_time": "2022-02-18T16:01:10.000Z",
+            "interview": {"id": "7fhRHzkk811XoMhcyr9t", "title": "Exemple d'entretien en français"},
+            "age": 16,
+            "consent_relationship": "Sister",
+            "created_by": {
+                "last_name": "Enumerator",
+                "first_name": "Example",
+                "id": "8GU17rVu2XNxCEmbgYPD0hNsS4A2"
+            },
+            "created_at": "2022-02-18T14:06:43.000Z",
+            "answers": {
+                "zbZcIjIfd1BwWmRoyl9x": {
+                    "is_flagged": false,
+                    "is_translated": true,
+                    "used_transcription": false,
+                    "answers": ["This answer will help test automatic translations"],
+                    "is_skipped": false,
+                    "is_starred": false,
+                    "question": {
+                        "title": "Exemple de titre de question à réponse ouverte",
+                        "order": 100,
+                        "id": "zbZcIjIfd1BwWmRoyl9x"
+                    },
+                    "is_probing_question": false,
+                    "is_proofed": true,
+                    "transcribed_answer": "",
+                    "original_answers": [
+                        "Cette réponse permettra de tester les traductions automatiques"
+                    ]
+                }
+            },
+            "duration": 108000,
+            "project": {"title": "Example project", "id": "LfM6kx1q7CqHOn85Cd8y"},
+            "is_beneficiary": false,
+            "gender": "Femme",
+            "primary_language": "fr"
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8": {
+            "status": "active",
+            "updated_at": "2022-03-09T15:01:24.956Z",
+            "is_active": true,
+            "assigned_users_ids": ["rMiClQoCHWRV6C5an3jvMGisWFQ2", "8GU17rVu2XNxCEmbgYPD0hNsS4A2"],
+            "title": "Example end-to-end interview with translations",
+            "assigned_users": [
+                {
+                    "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2",
+                    "last_name": "Assessment Lead",
+                    "first_name": "Example"
+                },
+                {
+                    "id": "8GU17rVu2XNxCEmbgYPD0hNsS4A2",
+                    "first_name": "Example",
+                    "last_name": "Enumerator"
+                }
+            ],
+            "responses_count": 6,
+            "created_at": "2022-02-15T19:29:34.035Z",
+            "consent_step_1": {
+                "confirmation_question": "I have read, or have been read, this Consent before signing it, and I understand this Consent.",
+                "confirmation_options": [
+                    {"is_correct": true, "order": 1, "label": "Yes"},
+                    {"label": "No", "order": 2, "is_correct": false},
+                    {"label": "Need further explanation", "order": 3, "is_correct": false}
+                ],
+                "script": "I (name)…………………, ………… years old give the team South Sudan, the right and permission to use information about me and my family (if relevant). This could include names, ages, statements, images, video and any voice recordings.\nI am happy for the team, to interview me and my family.\nI am happy for the team, to take photos or video of me and my family\nI am happy for people to read or hear about my / our story\nI am happy for the team,  and its corporate partners to use my story to tell others about my life experiences, to promote the team,  mission around the world\nI have read, or have been read, this Consent before signing it, and I understand this Consent.",
+                "description": "Example English consent purpose",
+                "title": "Rapid Gender Analysis- Consent"
+            },
+            "consent_step_2": {
+                "confirmation_question": "Example consent confirmation question?",
+                "confirmation_options": [
+                    {
+                        "is_correct": true,
+                        "label": "Example consent confirmation option 1",
+                        "order": 1
+                    },
+                    {
+                        "is_correct": false,
+                        "label": "Example consent confirmation option 2",
+                        "order": 2
+                    },
+                    {
+                        "is_correct": false,
+                        "order": 3,
+                        "label": "Example consent confirmation option 3"
+                    }
+                ],
+                "title": "Example consent title",
+                "description": "Example consent purpose",
+                "script": "Example consent script"
+            },
+            "project": {"id": "LfM6kx1q7CqHOn85Cd8y", "title": "Example project"},
+            "created_by": {
+                "last_name": "Assessment Lead",
+                "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2",
+                "first_name": "Example"
+            },
+            "updated_by": {
+                "last_name": "Administrator",
+                "first_name": "Example",
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2"
+            },
+            "description": "An example interview defined in Spanish, complete with translations, multiple questions and responses for testing against. ",
+            "primary_language": "es",
+            "is_archived": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/interviews_public/mZmvW2R8xYxC8pA71jt8": {
+            "consent_step_2": {
+                "script": "Example consent script",
+                "title": "Example consent title",
+                "confirmation_options": [
+                    {
+                        "label": "Example consent confirmation option 1",
+                        "order": 1,
+                        "is_correct": true
+                    },
+                    {
+                        "order": 2,
+                        "label": "Example consent confirmation option 2",
+                        "is_correct": false
+                    },
+                    {
+                        "order": 3,
+                        "is_correct": false,
+                        "label": "Example consent confirmation option 3"
+                    }
+                ],
+                "description": "Example consent purpose",
+                "confirmation_question": "Example consent confirmation question?"
+            },
+            "description": "An example interview defined in Spanish, complete with translations, multiple questions and responses for testing against. ",
+            "is_active": true,
+            "status": "active",
+            "project": {"title": "Example project", "id": "LfM6kx1q7CqHOn85Cd8y"},
+            "primary_language": "es",
+            "consent_step_1": {
+                "script": "I (name)…………………, ………… years old give the team South Sudan, the right and permission to use information about me and my family (if relevant). This could include names, ages, statements, images, video and any voice recordings.\nI am happy for the team, to interview me and my family.\nI am happy for the team, to take photos or video of me and my family\nI am happy for people to read or hear about my / our story\nI am happy for the team,  and its corporate partners to use my story to tell others about my life experiences, to promote the team,  mission around the world\nI have read, or have been read, this Consent before signing it, and I understand this Consent.",
+                "confirmation_question": "I have read, or have been read, this Consent before signing it, and I understand this Consent.",
+                "title": "Rapid Gender Analysis- Consent",
+                "description": "Example English consent purpose",
+                "confirmation_options": [
+                    {"order": 1, "is_correct": true, "label": "Yes"},
+                    {"order": 2, "label": "No", "is_correct": false},
+                    {"order": 3, "label": "Need further explanation", "is_correct": false}
+                ]
+            },
+            "responses_count": 0,
+            "created_at": "2022-02-15T19:29:34.035Z",
+            "title": "Example end-to-end interview with translations",
+            "is_archived": false,
+            "assigned_users_ids": ["rMiClQoCHWRV6C5an3jvMGisWFQ2", "8GU17rVu2XNxCEmbgYPD0hNsS4A2"]
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/questions/6WjqY2Lwg1tnQqInUfqE": {
+            "type": "single_code",
+            "options": ["Sí", "No"],
+            "interview": {
+                "id": "mZmvW2R8xYxC8pA71jt8",
+                "title": "Example end-to-end interview with translations"
+            },
+            "is_active": true,
+            "project": {"title": "Example project", "id": "LfM6kx1q7CqHOn85Cd8y"},
+            "updated_at": "2022-03-09T14:25:22.752Z",
+            "title": "¿Ha habido un aumento en las preocupaciones de seguridad desde la emergencia?",
+            "description": "",
+            "updated_by": {
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2",
+                "first_name": "Example",
+                "last_name": "Administrator"
+            },
+            "is_archived": false,
+            "created_by": {
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2",
+                "first_name": "Example",
+                "last_name": "Administrator"
+            },
+            "created_at": "2022-03-09T13:15:17.718Z",
+            "order": 400,
+            "is_custom": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/questions/6WjqY2Lwg1tnQqInUfqE/questions_public/6WjqY2Lwg1tnQqInUfqE": {
+            "options": ["Sí", "No"],
+            "description": "",
+            "type": "single_code",
+            "is_archived": false,
+            "project": {"id": "LfM6kx1q7CqHOn85Cd8y", "title": "Example project"},
+            "is_active": true,
+            "order": 400,
+            "interview": {
+                "id": "mZmvW2R8xYxC8pA71jt8",
+                "title": "Example end-to-end interview with translations"
+            },
+            "title": "¿Ha habido un aumento en las preocupaciones de seguridad desde la emergencia?"
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/questions/C8MqNDETIMTiwcXXGWvk": {
+            "updated_by": {
+                "last_name": "Administrator",
+                "first_name": "Example",
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2"
+            },
+            "options": [
+                "No hay lugar seguro en la comunidad",
+                "Violencia/abuso sexual",
+                "Violencia en el hogar",
+                "Riesgo de ataque al viajar fuera de la comunidad",
+                "Que sus familias les pidan matrimonio",
+                "No se puede acceder a los servicios y recursos",
+                "No sé"
+            ],
+            "is_archived": false,
+            "is_custom": false,
+            "updated_at": "2022-03-09T14:27:11.010Z",
+            "created_at": "2022-03-09T13:16:54.606Z",
+            "project": {"id": "LfM6kx1q7CqHOn85Cd8y", "title": "Example project"},
+            "order": 500,
+            "created_by": {
+                "last_name": "Administrator",
+                "first_name": "Example",
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2"
+            },
+            "type": "multi_code",
+            "is_active": true,
+            "interview": {
+                "id": "mZmvW2R8xYxC8pA71jt8",
+                "title": "Example end-to-end interview with translations"
+            },
+            "description": "",
+            "title": "¿Cuáles son las preocupaciones de seguridad y protección más importantes en esta comunidad? (Seleccione todas las que correspondan)"
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/questions/C8MqNDETIMTiwcXXGWvk/questions_public/C8MqNDETIMTiwcXXGWvk": {
+            "options": [
+                "No hay lugar seguro en la comunidad",
+                "Violencia/abuso sexual",
+                "Violencia en el hogar",
+                "Riesgo de ataque al viajar fuera de la comunidad",
+                "Que sus familias les pidan matrimonio",
+                "No se puede acceder a los servicios y recursos",
+                "No sé"
+            ],
+            "order": 500,
+            "type": "multi_code",
+            "is_active": true,
+            "interview": {
+                "id": "mZmvW2R8xYxC8pA71jt8",
+                "title": "Example end-to-end interview with translations"
+            },
+            "description": "",
+            "project": {"id": "LfM6kx1q7CqHOn85Cd8y", "title": "Example project"},
+            "is_archived": false,
+            "title": "¿Cuáles son las preocupaciones de seguridad y protección más importantes en esta comunidad? (Seleccione todas las que correspondan)"
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/questions/J5yY1HJFcXanx0Qjzm5F": {
+            "type": "free_text",
+            "is_custom": false,
+            "options": [],
+            "order": 100,
+            "title": "Example open response question title?",
+            "interview": {
+                "id": "mZmvW2R8xYxC8pA71jt8",
+                "title": "Example End-to-End English Interview"
+            },
+            "description": "Example open response question description",
+            "updated_at": "2022-03-09T13:07:06.562Z",
+            "created_at": "2022-02-15T19:43:38.027Z",
+            "is_archived": false,
+            "updated_by": {
+                "first_name": "Example",
+                "last_name": "Administrator",
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2"
+            },
+            "is_active": false,
+            "created_by": {
+                "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2",
+                "last_name": "Assessment Lead",
+                "first_name": "Example"
+            },
+            "project": {"id": "LfM6kx1q7CqHOn85Cd8y", "title": "Example project"}
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/questions/J5yY1HJFcXanx0Qjzm5F/questions_public/J5yY1HJFcXanx0Qjzm5F": {
+            "order": 100,
+            "is_active": false,
+            "type": "free_text",
+            "interview": {
+                "id": "mZmvW2R8xYxC8pA71jt8",
+                "title": "Example End-to-End English Interview"
+            },
+            "is_archived": false,
+            "project": {"title": "Example project", "id": "LfM6kx1q7CqHOn85Cd8y"},
+            "options": [],
+            "title": "Example open response question title?",
+            "description": "Example open response question description"
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/questions/K0LlifeeMM4wTqWeD1KH": {
+            "interview": {
+                "id": "mZmvW2R8xYxC8pA71jt8",
+                "title": "Example End-to-End English Interview"
+            },
+            "type": "multi_code",
+            "is_active": false,
+            "options": ["Example option 1", "Example option 2", "Example option 3"],
+            "created_by": {
+                "first_name": "Example",
+                "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2",
+                "last_name": "Assessment Lead"
+            },
+            "description": "Example multi code question description",
+            "order": 300,
+            "updated_by": {
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2",
+                "first_name": "Example",
+                "last_name": "Administrator"
+            },
+            "project": {"id": "LfM6kx1q7CqHOn85Cd8y", "title": "Example project"},
+            "updated_at": "2022-03-09T13:07:17.760Z",
+            "title": "Example multi code question title?",
+            "is_archived": false,
+            "is_custom": false,
+            "created_at": "2022-02-15T19:43:45.648Z"
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/questions/K0LlifeeMM4wTqWeD1KH/questions_public/K0LlifeeMM4wTqWeD1KH": {
+            "order": 300,
+            "is_active": false,
+            "options": ["Example option 1", "Example option 2", "Example option 3"],
+            "type": "multi_code",
+            "interview": {
+                "id": "mZmvW2R8xYxC8pA71jt8",
+                "title": "Example End-to-End English Interview"
+            },
+            "project": {"title": "Example project", "id": "LfM6kx1q7CqHOn85Cd8y"},
+            "title": "Example multi code question title?",
+            "is_archived": false,
+            "description": "Example multi code question description"
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/questions/PBCEcBxgjdxgWuT5whK3": {
+            "is_archived": false,
+            "created_at": "2022-03-09T13:17:46.142Z",
+            "is_active": true,
+            "options": ["solo/individualmente", "En grupos"],
+            "description": "",
+            "order": 700,
+            "project": {"title": "Example project", "id": "LfM6kx1q7CqHOn85Cd8y"},
+            "created_by": {
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2",
+                "last_name": "Administrator",
+                "first_name": "Example"
+            },
+            "type": "single_code",
+            "updated_by": {
+                "last_name": "Administrator",
+                "first_name": "Example",
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2"
+            },
+            "is_custom": false,
+            "title": "¿Las mujeres y las niñas suelen viajar fuera de la comunidad en grupos o solas?",
+            "updated_at": "2022-03-09T14:27:45.417Z",
+            "interview": {
+                "title": "Example end-to-end interview with translations",
+                "id": "mZmvW2R8xYxC8pA71jt8"
+            }
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/questions/PBCEcBxgjdxgWuT5whK3/questions_public/PBCEcBxgjdxgWuT5whK3": {
+            "is_active": true,
+            "type": "single_code",
+            "is_archived": false,
+            "options": ["solo/individualmente", "En grupos"],
+            "description": "",
+            "interview": {
+                "id": "mZmvW2R8xYxC8pA71jt8",
+                "title": "Example end-to-end interview with translations"
+            },
+            "title": "¿Las mujeres y las niñas suelen viajar fuera de la comunidad en grupos o solas?",
+            "project": {"id": "LfM6kx1q7CqHOn85Cd8y", "title": "Example project"},
+            "order": 700
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/questions/rqQ6tksdwdXbV4rfvJAE": {
+            "options": [],
+            "created_at": "2022-03-09T13:17:18.339Z",
+            "description": "",
+            "created_by": {
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2",
+                "last_name": "Administrator",
+                "first_name": "Example"
+            },
+            "project": {"title": "Example project", "id": "LfM6kx1q7CqHOn85Cd8y"},
+            "is_active": true,
+            "is_archived": false,
+            "title": "¿Son sus necesidades de protección específicas de mujeres, hombres, niños y niñas en esta comunidad?",
+            "order": 600,
+            "is_custom": false,
+            "updated_at": "2022-03-09T14:27:20.755Z",
+            "updated_by": {
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2",
+                "first_name": "Example",
+                "last_name": "Administrator"
+            },
+            "interview": {
+                "title": "Example end-to-end interview with translations",
+                "id": "mZmvW2R8xYxC8pA71jt8"
+            },
+            "type": "free_text"
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/questions/rqQ6tksdwdXbV4rfvJAE/questions_public/rqQ6tksdwdXbV4rfvJAE": {
+            "interview": {
+                "title": "Example end-to-end interview with translations",
+                "id": "mZmvW2R8xYxC8pA71jt8"
+            },
+            "project": {"id": "LfM6kx1q7CqHOn85Cd8y", "title": "Example project"},
+            "title": "¿Son sus necesidades de protección específicas de mujeres, hombres, niños y niñas en esta comunidad?",
+            "options": [],
+            "order": 600,
+            "description": "",
+            "is_active": true,
+            "type": "free_text",
+            "is_archived": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/questions/xioDhjizscf6U4d1ht8W": {
+            "updated_by": {
+                "last_name": "Administrator",
+                "first_name": "Example",
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2"
+            },
+            "type": "single_code",
+            "title": "Example single code question title?",
+            "is_active": false,
+            "interview": {
+                "id": "mZmvW2R8xYxC8pA71jt8",
+                "title": "Example End-to-End English Interview"
+            },
+            "order": 200,
+            "is_archived": false,
+            "is_custom": false,
+            "updated_at": "2022-03-09T13:07:11.434Z",
+            "created_by": {
+                "first_name": "Example",
+                "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2",
+                "last_name": "Assessment Lead"
+            },
+            "description": "Example single code question description",
+            "created_at": "2022-02-15T19:43:42.198Z",
+            "project": {"id": "LfM6kx1q7CqHOn85Cd8y", "title": "Example project"},
+            "options": [
+                "Example option 1",
+                "Example option 2",
+                "Example option 3",
+                "Example option 4",
+                "Example option 5",
+                "Example option 6"
+            ]
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/questions/xioDhjizscf6U4d1ht8W/questions_public/xioDhjizscf6U4d1ht8W": {
+            "description": "Example single code question description",
+            "title": "Example single code question title?",
+            "order": 200,
+            "options": [
+                "Example option 1",
+                "Example option 2",
+                "Example option 3",
+                "Example option 4",
+                "Example option 5",
+                "Example option 6"
+            ],
+            "is_active": false,
+            "project": {"id": "LfM6kx1q7CqHOn85Cd8y", "title": "Example project"},
+            "is_archived": false,
+            "interview": {
+                "id": "mZmvW2R8xYxC8pA71jt8",
+                "title": "Example End-to-End English Interview"
+            },
+            "type": "single_code"
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/6pljo2hun6mwy3i882mo": {
+            "created_by": {
+                "id": "8GU17rVu2XNxCEmbgYPD0hNsS4A2",
+                "first_name": "Example",
+                "last_name": "Enumerator"
+            },
+            "is_beneficiary": false,
+            "gender": "Female",
+            "consent_relationship": "",
+            "answers": {
+                "PBCEcBxgjdxgWuT5whK3": {
+                    "is_flagged": false,
+                    "answers": ["solo/individualmente"],
+                    "is_proofed": true,
+                    "type": "single_code",
+                    "used_transcription": false,
+                    "is_probing_question": false,
+                    "is_starred": true,
+                    "transcribed_answer": [],
+                    "question": {
+                        "id": "PBCEcBxgjdxgWuT5whK3",
+                        "title": "¿Las mujeres y las niñas suelen viajar fuera de la comunidad en grupos o solas?"
+                    },
+                    "is_translated": true,
+                    "original_answers": [],
+                    "is_skipped": false
+                },
+                "K0LlifeeMM4wTqWeD1KH": {
+                    "question": {
+                        "title": "Example multi code question title?",
+                        "id": "K0LlifeeMM4wTqWeD1KH"
+                    },
+                    "original_answers": [],
+                    "is_translated": true,
+                    "transcribed_answer": [],
+                    "is_skipped": false,
+                    "type": "multi_code",
+                    "is_starred": false,
+                    "used_transcription": false,
+                    "is_flagged": false,
+                    "is_proofed": true,
+                    "is_probing_question": false,
+                    "answers": ["Example option 3", "Example option 2"]
+                },
+                "J5yY1HJFcXanx0Qjzm5F": {
+                    "used_transcription": false,
+                    "is_proofed": true,
+                    "transcribed_answer": "",
+                    "is_translated": true,
+                    "is_starred": false,
+                    "is_probing_question": false,
+                    "is_flagged": false,
+                    "type": "free_text",
+                    "question": {
+                        "id": "J5yY1HJFcXanx0Qjzm5F",
+                        "title": "Example open response question title?"
+                    },
+                    "answers": ["I haven't noticed a lot of difference"],
+                    "is_skipped": false,
+                    "original_answers": ["no he notado mucha diferencia"]
+                },
+                "C8MqNDETIMTiwcXXGWvk": {
+                    "transcribed_answer": [],
+                    "original_answers": [],
+                    "question": {
+                        "id": "C8MqNDETIMTiwcXXGWvk",
+                        "title": "¿Cuáles son las preocupaciones de seguridad y protección más importantes en esta comunidad? (Seleccione todas las que correspondan)"
+                    },
+                    "answers": [
+                        "Violencia/abuso sexual",
+                        "Que sus familias les pidan matrimonio",
+                        "No sé"
+                    ],
+                    "is_probing_question": false,
+                    "is_flagged": true,
+                    "is_skipped": false,
+                    "type": "multi_code",
+                    "is_translated": true,
+                    "used_transcription": false,
+                    "is_proofed": true,
+                    "is_starred": true
+                },
+                "6WjqY2Lwg1tnQqInUfqE": {
+                    "type": "single_code",
+                    "is_proofed": true,
+                    "original_answers": [],
+                    "is_translated": true,
+                    "used_transcription": false,
+                    "is_skipped": false,
+                    "is_flagged": true,
+                    "is_probing_question": false,
+                    "transcribed_answer": [],
+                    "question": {
+                        "id": "6WjqY2Lwg1tnQqInUfqE",
+                        "title": "¿Ha habido un aumento en las preocupaciones de seguridad desde la emergencia?"
+                    },
+                    "answers": ["No"],
+                    "is_starred": true
+                },
+                "rqQ6tksdwdXbV4rfvJAE": {
+                    "is_translated": true,
+                    "answers": [
+                        "I want to go back to school and get a better education so I can improve my family's life"
+                    ],
+                    "transcribed_answer": "I want to go back to school and get a better education so I can improve my family's life!",
+                    "is_skipped": false,
+                    "used_transcription": true,
+                    "original_answers": [
+                        "Quiero volver a la escuela y obtener una mejor educación para poder mejorar la vida de mi familia."
+                    ],
+                    "type": "free_text",
+                    "is_starred": false,
+                    "is_flagged": false,
+                    "question": {
+                        "id": "rqQ6tksdwdXbV4rfvJAE",
+                        "title": "¿Son sus necesidades de protección específicas de mujeres, hombres, niños y niñas en esta comunidad?"
+                    },
+                    "is_probing_question": false,
+                    "is_proofed": true
+                },
+                "xioDhjizscf6U4d1ht8W": {
+                    "is_flagged": false,
+                    "original_answers": [],
+                    "answers": ["Example option 4"],
+                    "is_translated": true,
+                    "used_transcription": false,
+                    "is_proofed": true,
+                    "type": "single_code",
+                    "is_skipped": false,
+                    "transcribed_answer": [],
+                    "is_probing_question": false,
+                    "is_starred": true,
+                    "question": {
+                        "id": "xioDhjizscf6U4d1ht8W",
+                        "title": "Example single code question title?"
+                    }
+                }
+            },
+            "interview": {
+                "id": "mZmvW2R8xYxC8pA71jt8",
+                "title": "Example end-to-end interview with translations"
+            },
+            "enumerator_notes": {},
+            "project": {"id": "LfM6kx1q7CqHOn85Cd8y", "title": "A complete project example"},
+            "start_time": "Mar 10, 2022 01:01:09:PM",
+            "duration": 1980000,
+            "created_at": "2022-03-10T13:01:09.187Z",
+            "end_time": "Mar 10, 2022 01:34:09:PM"
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/6pljo2hun6mwy3i882mo/response_answers/6WjqY2Lwg1tnQqInUfqE": {
+            "answers": ["No"],
+            "is_translated": true,
+            "used_transcription": false,
+            "is_starred": true,
+            "is_proofed": true,
+            "question": {
+                "id": "6WjqY2Lwg1tnQqInUfqE",
+                "title": "¿Ha habido un aumento en las preocupaciones de seguridad desde la emergencia?"
+            },
+            "is_probing_question": false,
+            "transcribed_answer": [],
+            "is_flagged": true,
+            "original_answers": [],
+            "is_skipped": false,
+            "type": "single_code"
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/6pljo2hun6mwy3i882mo/response_answers/C8MqNDETIMTiwcXXGWvk": {
+            "transcribed_answer": [],
+            "question": {
+                "title": "¿Cuáles son las preocupaciones de seguridad y protección más importantes en esta comunidad? (Seleccione todas las que correspondan)",
+                "id": "C8MqNDETIMTiwcXXGWvk"
+            },
+            "original_answers": [],
+            "type": "multi_code",
+            "is_proofed": true,
+            "is_flagged": true,
+            "is_probing_question": false,
+            "is_skipped": false,
+            "is_translated": true,
+            "used_transcription": false,
+            "is_starred": true,
+            "answers": ["Violencia/abuso sexual", "Que sus familias les pidan matrimonio", "No sé"]
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/6pljo2hun6mwy3i882mo/response_answers/J5yY1HJFcXanx0Qjzm5F": {
+            "type": "free_text",
+            "is_probing_question": false,
+            "original_answers": ["no he notado mucha diferencia"],
+            "is_translated": true,
+            "is_flagged": false,
+            "transcribed_answer": "",
+            "question": {
+                "title": "Example open response question title?",
+                "id": "J5yY1HJFcXanx0Qjzm5F"
+            },
+            "used_transcription": false,
+            "is_proofed": true,
+            "is_starred": false,
+            "is_skipped": false,
+            "answers": ["I haven't noticed a lot of difference"]
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/6pljo2hun6mwy3i882mo/response_answers/K0LlifeeMM4wTqWeD1KH": {
+            "is_skipped": false,
+            "is_flagged": false,
+            "used_transcription": false,
+            "original_answers": [],
+            "question": {
+                "id": "K0LlifeeMM4wTqWeD1KH",
+                "title": "Example multi code question title?"
+            },
+            "answers": ["Example option 3", "Example option 2"],
+            "is_probing_question": false,
+            "transcribed_answer": [],
+            "is_proofed": true,
+            "type": "multi_code",
+            "is_starred": false,
+            "is_translated": true
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/6pljo2hun6mwy3i882mo/response_answers/PBCEcBxgjdxgWuT5whK3": {
+            "question": {
+                "title": "¿Las mujeres y las niñas suelen viajar fuera de la comunidad en grupos o solas?",
+                "id": "PBCEcBxgjdxgWuT5whK3"
+            },
+            "transcribed_answer": [],
+            "is_proofed": true,
+            "used_transcription": false,
+            "original_answers": [],
+            "answers": ["solo/individualmente"],
+            "is_starred": true,
+            "type": "single_code",
+            "is_flagged": false,
+            "is_translated": true,
+            "is_skipped": false,
+            "is_probing_question": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/6pljo2hun6mwy3i882mo/response_answers/rqQ6tksdwdXbV4rfvJAE": {
+            "original_answers": [
+                "Quiero volver a la escuela y obtener una mejor educación para poder mejorar la vida de mi familia."
+            ],
+            "transcribed_answer": "I want to go back to school and get a better education so I can improve my family's life!",
+            "type": "free_text",
+            "is_translated": true,
+            "is_proofed": true,
+            "answers": [
+                "I want to go back to school and get a better education so I can improve my family's life"
+            ],
+            "is_flagged": false,
+            "question": {
+                "id": "rqQ6tksdwdXbV4rfvJAE",
+                "title": "¿Son sus necesidades de protección específicas de mujeres, hombres, niños y niñas en esta comunidad?"
+            },
+            "is_skipped": false,
+            "is_probing_question": false,
+            "used_transcription": true,
+            "is_starred": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/6pljo2hun6mwy3i882mo/response_answers/xioDhjizscf6U4d1ht8W": {
+            "original_answers": [],
+            "is_probing_question": false,
+            "type": "single_code",
+            "is_proofed": true,
+            "answers": ["Example option 4"],
+            "question": {
+                "title": "Example single code question title?",
+                "id": "xioDhjizscf6U4d1ht8W"
+            },
+            "transcribed_answer": [],
+            "used_transcription": false,
+            "is_starred": true,
+            "is_skipped": false,
+            "is_translated": true,
+            "is_flagged": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/7eq406547i7ayr42u0ku": {
+            "created_at": "2022-03-10T13:01:18.328Z",
+            "gender": "Other",
+            "enumerator_notes": {},
+            "consent_relationship": "",
+            "duration": 4080000,
+            "created_by": {
+                "id": "8GU17rVu2XNxCEmbgYPD0hNsS4A2",
+                "first_name": "Example",
+                "last_name": "Enumerator"
+            },
+            "start_time": "Mar 10, 2022 01:01:18:PM",
+            "answers": {
+                "xioDhjizscf6U4d1ht8W": {
+                    "is_skipped": false,
+                    "used_transcription": false,
+                    "is_flagged": false,
+                    "transcribed_answer": [],
+                    "is_probing_question": false,
+                    "is_proofed": true,
+                    "type": "single_code",
+                    "original_answers": [],
+                    "is_translated": true,
+                    "is_starred": false,
+                    "answers": ["Example option 1"],
+                    "question": {
+                        "id": "xioDhjizscf6U4d1ht8W",
+                        "title": "Example single code question title?"
+                    }
+                },
+                "K0LlifeeMM4wTqWeD1KH": {
+                    "is_flagged": false,
+                    "transcribed_answer": [],
+                    "is_starred": true,
+                    "original_answers": [],
+                    "is_skipped": false,
+                    "type": "multi_code",
+                    "is_probing_question": false,
+                    "used_transcription": false,
+                    "is_proofed": true,
+                    "question": {
+                        "title": "Example multi code question title?",
+                        "id": "K0LlifeeMM4wTqWeD1KH"
+                    },
+                    "answers": ["Example option 2", "Example option 1"],
+                    "is_translated": true
+                },
+                "C8MqNDETIMTiwcXXGWvk": {
+                    "is_translated": true,
+                    "is_starred": true,
+                    "transcribed_answer": [],
+                    "is_probing_question": false,
+                    "question": {
+                        "title": "¿Cuáles son las preocupaciones de seguridad y protección más importantes en esta comunidad? (Seleccione todas las que correspondan)",
+                        "id": "C8MqNDETIMTiwcXXGWvk"
+                    },
+                    "is_flagged": false,
+                    "answers": [
+                        "Que sus familias les pidan matrimonio",
+                        "Riesgo de ataque al viajar fuera de la comunidad",
+                        "No se puede acceder a los servicios y recursos",
+                        "No hay lugar seguro en la comunidad",
+                        "Violencia/abuso sexual"
+                    ],
+                    "is_skipped": false,
+                    "is_proofed": true,
+                    "type": "multi_code",
+                    "original_answers": [],
+                    "used_transcription": false
+                },
+                "PBCEcBxgjdxgWuT5whK3": {
+                    "is_proofed": true,
+                    "is_skipped": false,
+                    "is_flagged": false,
+                    "is_probing_question": false,
+                    "question": {
+                        "title": "¿Las mujeres y las niñas suelen viajar fuera de la comunidad en grupos o solas?",
+                        "id": "PBCEcBxgjdxgWuT5whK3"
+                    },
+                    "transcribed_answer": [],
+                    "type": "single_code",
+                    "answers": ["solo/individualmente"],
+                    "is_translated": true,
+                    "used_transcription": false,
+                    "is_starred": false,
+                    "original_answers": []
+                },
+                "6WjqY2Lwg1tnQqInUfqE": {
+                    "is_proofed": true,
+                    "transcribed_answer": [],
+                    "is_translated": true,
+                    "is_flagged": true,
+                    "original_answers": [],
+                    "question": {
+                        "title": "¿Ha habido un aumento en las preocupaciones de seguridad desde la emergencia?",
+                        "id": "6WjqY2Lwg1tnQqInUfqE"
+                    },
+                    "used_transcription": false,
+                    "is_starred": true,
+                    "type": "single_code",
+                    "is_probing_question": false,
+                    "is_skipped": false,
+                    "answers": ["No"]
+                },
+                "rqQ6tksdwdXbV4rfvJAE": {
+                    "is_probing_question": false,
+                    "is_skipped": false,
+                    "is_flagged": false,
+                    "is_proofed": true,
+                    "is_translated": true,
+                    "question": {
+                        "title": "¿Son sus necesidades de protección específicas de mujeres, hombres, niños y niñas en esta comunidad?",
+                        "id": "rqQ6tksdwdXbV4rfvJAE"
+                    },
+                    "answers": ["I speak with my parents every day, they help a lot"],
+                    "transcribed_answer": "I speak with my parents every day, they help a lot!",
+                    "is_starred": true,
+                    "type": "free_text",
+                    "used_transcription": true,
+                    "original_answers": ["Hablo con mis padres todos los días, me ayudan mucho."]
+                },
+                "J5yY1HJFcXanx0Qjzm5F": {
+                    "type": "free_text",
+                    "is_skipped": false,
+                    "is_flagged": false,
+                    "is_translated": true,
+                    "is_probing_question": false,
+                    "question": {
+                        "id": "J5yY1HJFcXanx0Qjzm5F",
+                        "title": "Example open response question title?"
+                    },
+                    "original_answers": [
+                        "Tengo que trabajar muchas horas pero la paga no es tan buena."
+                    ],
+                    "is_proofed": true,
+                    "is_starred": false,
+                    "used_transcription": false,
+                    "answers": ["I have to work long hours but the pay isn't so good"],
+                    "transcribed_answer": ""
+                }
+            },
+            "project": {"id": "LfM6kx1q7CqHOn85Cd8y", "title": "A complete project example"},
+            "end_time": "Mar 10, 2022 02:09:18:PM",
+            "is_beneficiary": false,
+            "interview": {
+                "title": "Example end-to-end interview with translations",
+                "id": "mZmvW2R8xYxC8pA71jt8"
+            }
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/7eq406547i7ayr42u0ku/response_answers/6WjqY2Lwg1tnQqInUfqE": {
+            "answers": ["No"],
+            "is_translated": true,
+            "is_proofed": true,
+            "question": {
+                "title": "¿Ha habido un aumento en las preocupaciones de seguridad desde la emergencia?",
+                "id": "6WjqY2Lwg1tnQqInUfqE"
+            },
+            "is_probing_question": false,
+            "is_skipped": false,
+            "is_starred": true,
+            "used_transcription": false,
+            "original_answers": [],
+            "type": "single_code",
+            "transcribed_answer": [],
+            "is_flagged": true
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/7eq406547i7ayr42u0ku/response_answers/C8MqNDETIMTiwcXXGWvk": {
+            "type": "multi_code",
+            "used_transcription": false,
+            "is_starred": true,
+            "question": {
+                "id": "C8MqNDETIMTiwcXXGWvk",
+                "title": "¿Cuáles son las preocupaciones de seguridad y protección más importantes en esta comunidad? (Seleccione todas las que correspondan)"
+            },
+            "is_probing_question": false,
+            "is_flagged": false,
+            "is_proofed": true,
+            "transcribed_answer": [],
+            "is_translated": true,
+            "answers": [
+                "Que sus familias les pidan matrimonio",
+                "Riesgo de ataque al viajar fuera de la comunidad",
+                "No se puede acceder a los servicios y recursos",
+                "No hay lugar seguro en la comunidad",
+                "Violencia/abuso sexual"
+            ],
+            "is_skipped": false,
+            "original_answers": []
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/7eq406547i7ayr42u0ku/response_answers/J5yY1HJFcXanx0Qjzm5F": {
+            "original_answers": ["Tengo que trabajar muchas horas pero la paga no es tan buena."],
+            "is_translated": true,
+            "is_skipped": false,
+            "transcribed_answer": "",
+            "is_proofed": true,
+            "type": "free_text",
+            "question": {
+                "title": "Example open response question title?",
+                "id": "J5yY1HJFcXanx0Qjzm5F"
+            },
+            "used_transcription": false,
+            "is_flagged": false,
+            "is_probing_question": false,
+            "is_starred": false,
+            "answers": ["I have to work long hours but the pay isn't so good"]
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/7eq406547i7ayr42u0ku/response_answers/K0LlifeeMM4wTqWeD1KH": {
+            "is_translated": true,
+            "is_probing_question": false,
+            "is_skipped": false,
+            "original_answers": [],
+            "is_starred": true,
+            "transcribed_answer": [],
+            "answers": ["Example option 2", "Example option 1"],
+            "question": {
+                "title": "Example multi code question title?",
+                "id": "K0LlifeeMM4wTqWeD1KH"
+            },
+            "used_transcription": false,
+            "is_proofed": true,
+            "type": "multi_code",
+            "is_flagged": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/7eq406547i7ayr42u0ku/response_answers/PBCEcBxgjdxgWuT5whK3": {
+            "type": "single_code",
+            "is_starred": false,
+            "is_flagged": false,
+            "answers": ["solo/individualmente"],
+            "original_answers": [],
+            "transcribed_answer": [],
+            "is_translated": true,
+            "used_transcription": false,
+            "is_probing_question": false,
+            "is_proofed": true,
+            "is_skipped": false,
+            "question": {
+                "title": "¿Las mujeres y las niñas suelen viajar fuera de la comunidad en grupos o solas?",
+                "id": "PBCEcBxgjdxgWuT5whK3"
+            }
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/7eq406547i7ayr42u0ku/response_answers/rqQ6tksdwdXbV4rfvJAE": {
+            "is_skipped": false,
+            "is_flagged": false,
+            "is_probing_question": false,
+            "is_proofed": true,
+            "is_translated": true,
+            "question": {
+                "title": "¿Son sus necesidades de protección específicas de mujeres, hombres, niños y niñas en esta comunidad?",
+                "id": "rqQ6tksdwdXbV4rfvJAE"
+            },
+            "is_starred": true,
+            "type": "free_text",
+            "used_transcription": true,
+            "transcribed_answer": "I speak with my parents every day, they help a lot!",
+            "answers": ["I speak with my parents every day, they help a lot"],
+            "original_answers": ["Hablo con mis padres todos los días, me ayudan mucho."]
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/7eq406547i7ayr42u0ku/response_answers/xioDhjizscf6U4d1ht8W": {
+            "is_starred": false,
+            "answers": ["Example option 1"],
+            "is_translated": true,
+            "is_proofed": true,
+            "is_flagged": false,
+            "transcribed_answer": [],
+            "original_answers": [],
+            "is_probing_question": false,
+            "used_transcription": false,
+            "question": {
+                "id": "xioDhjizscf6U4d1ht8W",
+                "title": "Example single code question title?"
+            },
+            "type": "single_code",
+            "is_skipped": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/8r1vrn5n1ulklkrgrtb3": {
+            "enumerator_notes": {},
+            "duration": 2760000,
+            "created_at": "2022-03-10T13:01:18.329Z",
+            "created_by": {
+                "first_name": "Example",
+                "last_name": "Enumerator",
+                "id": "8GU17rVu2XNxCEmbgYPD0hNsS4A2"
+            },
+            "is_beneficiary": false,
+            "gender": "Male",
+            "project": {"id": "LfM6kx1q7CqHOn85Cd8y", "title": "A complete project example"},
+            "answers": {
+                "J5yY1HJFcXanx0Qjzm5F": {
+                    "answers": ["I speak with my parents every day, they help a lot"],
+                    "question": {
+                        "title": "Example open response question title?",
+                        "id": "J5yY1HJFcXanx0Qjzm5F"
+                    },
+                    "is_skipped": false,
+                    "is_flagged": true,
+                    "is_proofed": true,
+                    "is_translated": true,
+                    "transcribed_answer": "",
+                    "original_answers": ["Hablo con mis padres todos los días, me ayudan mucho."],
+                    "used_transcription": false,
+                    "is_probing_question": false,
+                    "type": "free_text",
+                    "is_starred": true
+                },
+                "rqQ6tksdwdXbV4rfvJAE": {
+                    "answers": ["I have to work long hours but the pay isn't so good"],
+                    "is_skipped": false,
+                    "is_probing_question": false,
+                    "type": "free_text",
+                    "is_starred": true,
+                    "question": {
+                        "id": "rqQ6tksdwdXbV4rfvJAE",
+                        "title": "¿Son sus necesidades de protección específicas de mujeres, hombres, niños y niñas en esta comunidad?"
+                    },
+                    "is_proofed": true,
+                    "transcribed_answer": "",
+                    "original_answers": [
+                        "Tengo que trabajar muchas horas pero la paga no es tan buena."
+                    ],
+                    "is_translated": true,
+                    "used_transcription": false,
+                    "is_flagged": false
+                },
+                "K0LlifeeMM4wTqWeD1KH": {
+                    "question": {
+                        "id": "K0LlifeeMM4wTqWeD1KH",
+                        "title": "Example multi code question title?"
+                    },
+                    "is_proofed": true,
+                    "original_answers": [],
+                    "is_probing_question": false,
+                    "type": "multi_code",
+                    "used_transcription": false,
+                    "transcribed_answer": [],
+                    "is_flagged": false,
+                    "is_starred": false,
+                    "is_skipped": false,
+                    "is_translated": true,
+                    "answers": []
+                },
+                "6WjqY2Lwg1tnQqInUfqE": {
+                    "is_translated": true,
+                    "is_flagged": false,
+                    "type": "single_code",
+                    "answers": ["Sí"],
+                    "question": {
+                        "id": "6WjqY2Lwg1tnQqInUfqE",
+                        "title": "¿Ha habido un aumento en las preocupaciones de seguridad desde la emergencia?"
+                    },
+                    "is_probing_question": false,
+                    "used_transcription": false,
+                    "is_skipped": false,
+                    "is_proofed": true,
+                    "transcribed_answer": [],
+                    "is_starred": true,
+                    "original_answers": []
+                },
+                "xioDhjizscf6U4d1ht8W": {
+                    "is_flagged": false,
+                    "transcribed_answer": [],
+                    "answers": ["Example option 3"],
+                    "is_proofed": true,
+                    "is_probing_question": false,
+                    "type": "single_code",
+                    "is_translated": true,
+                    "is_starred": false,
+                    "question": {
+                        "title": "Example single code question title?",
+                        "id": "xioDhjizscf6U4d1ht8W"
+                    },
+                    "original_answers": [],
+                    "is_skipped": false,
+                    "used_transcription": false
+                },
+                "C8MqNDETIMTiwcXXGWvk": {
+                    "is_flagged": false,
+                    "question": {
+                        "id": "C8MqNDETIMTiwcXXGWvk",
+                        "title": "¿Cuáles son las preocupaciones de seguridad y protección más importantes en esta comunidad? (Seleccione todas las que correspondan)"
+                    },
+                    "used_transcription": false,
+                    "original_answers": [],
+                    "is_probing_question": false,
+                    "is_proofed": true,
+                    "transcribed_answer": [],
+                    "type": "multi_code",
+                    "answers": [
+                        "Violencia en el hogar",
+                        "No sé",
+                        "No se puede acceder a los servicios y recursos",
+                        "Violencia/abuso sexual",
+                        "Riesgo de ataque al viajar fuera de la comunidad",
+                        "Que sus familias les pidan matrimonio"
+                    ],
+                    "is_skipped": false,
+                    "is_translated": true,
+                    "is_starred": false
+                },
+                "PBCEcBxgjdxgWuT5whK3": {
+                    "is_skipped": false,
+                    "is_starred": false,
+                    "answers": ["En grupos"],
+                    "type": "single_code",
+                    "transcribed_answer": [],
+                    "is_probing_question": false,
+                    "question": {
+                        "title": "¿Las mujeres y las niñas suelen viajar fuera de la comunidad en grupos o solas?",
+                        "id": "PBCEcBxgjdxgWuT5whK3"
+                    },
+                    "is_translated": true,
+                    "is_flagged": false,
+                    "is_proofed": true,
+                    "original_answers": [],
+                    "used_transcription": false
+                }
+            },
+            "consent_relationship": "",
+            "interview": {
+                "id": "mZmvW2R8xYxC8pA71jt8",
+                "title": "Example end-to-end interview with translations"
+            },
+            "end_time": "Mar 10, 2022 01:47:18:PM",
+            "start_time": "Mar 10, 2022 01:01:18:PM"
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/8r1vrn5n1ulklkrgrtb3/response_answers/6WjqY2Lwg1tnQqInUfqE": {
+            "answers": ["Sí"],
+            "question": {
+                "id": "6WjqY2Lwg1tnQqInUfqE",
+                "title": "¿Ha habido un aumento en las preocupaciones de seguridad desde la emergencia?"
+            },
+            "transcribed_answer": [],
+            "is_starred": true,
+            "original_answers": [],
+            "is_proofed": true,
+            "used_transcription": false,
+            "is_skipped": false,
+            "is_translated": true,
+            "is_flagged": false,
+            "type": "single_code",
+            "is_probing_question": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/8r1vrn5n1ulklkrgrtb3/response_answers/C8MqNDETIMTiwcXXGWvk": {
+            "is_probing_question": false,
+            "is_translated": true,
+            "is_proofed": true,
+            "is_skipped": false,
+            "answers": [
+                "Violencia en el hogar",
+                "No sé",
+                "No se puede acceder a los servicios y recursos",
+                "Violencia/abuso sexual",
+                "Riesgo de ataque al viajar fuera de la comunidad",
+                "Que sus familias les pidan matrimonio"
+            ],
+            "original_answers": [],
+            "question": {
+                "title": "¿Cuáles son las preocupaciones de seguridad y protección más importantes en esta comunidad? (Seleccione todas las que correspondan)",
+                "id": "C8MqNDETIMTiwcXXGWvk"
+            },
+            "transcribed_answer": [],
+            "used_transcription": false,
+            "is_flagged": false,
+            "is_starred": false,
+            "type": "multi_code"
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/8r1vrn5n1ulklkrgrtb3/response_answers/J5yY1HJFcXanx0Qjzm5F": {
+            "question": {
+                "title": "Example open response question title?",
+                "id": "J5yY1HJFcXanx0Qjzm5F"
+            },
+            "answers": ["I speak with my parents every day, they help a lot"],
+            "used_transcription": false,
+            "original_answers": ["Hablo con mis padres todos los días, me ayudan mucho."],
+            "is_starred": true,
+            "transcribed_answer": "",
+            "is_skipped": false,
+            "type": "free_text",
+            "is_probing_question": false,
+            "is_proofed": true,
+            "is_translated": true,
+            "is_flagged": true
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/8r1vrn5n1ulklkrgrtb3/response_answers/K0LlifeeMM4wTqWeD1KH": {
+            "original_answers": [],
+            "transcribed_answer": [],
+            "question": {
+                "id": "K0LlifeeMM4wTqWeD1KH",
+                "title": "Example multi code question title?"
+            },
+            "is_proofed": true,
+            "is_translated": true,
+            "is_flagged": false,
+            "type": "multi_code",
+            "answers": [],
+            "is_probing_question": false,
+            "used_transcription": false,
+            "is_skipped": false,
+            "is_starred": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/8r1vrn5n1ulklkrgrtb3/response_answers/PBCEcBxgjdxgWuT5whK3": {
+            "type": "single_code",
+            "used_transcription": false,
+            "transcribed_answer": [],
+            "question": {
+                "title": "¿Las mujeres y las niñas suelen viajar fuera de la comunidad en grupos o solas?",
+                "id": "PBCEcBxgjdxgWuT5whK3"
+            },
+            "is_starred": false,
+            "answers": ["En grupos"],
+            "original_answers": [],
+            "is_proofed": true,
+            "is_flagged": false,
+            "is_probing_question": false,
+            "is_translated": true,
+            "is_skipped": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/8r1vrn5n1ulklkrgrtb3/response_answers/rqQ6tksdwdXbV4rfvJAE": {
+            "original_answers": ["Tengo que trabajar muchas horas pero la paga no es tan buena."],
+            "used_transcription": false,
+            "question": {
+                "id": "rqQ6tksdwdXbV4rfvJAE",
+                "title": "¿Son sus necesidades de protección específicas de mujeres, hombres, niños y niñas en esta comunidad?"
+            },
+            "is_proofed": true,
+            "is_probing_question": false,
+            "transcribed_answer": "",
+            "is_flagged": false,
+            "is_skipped": false,
+            "answers": ["I have to work long hours but the pay isn't so good"],
+            "is_translated": true,
+            "type": "free_text",
+            "is_starred": true
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/8r1vrn5n1ulklkrgrtb3/response_answers/xioDhjizscf6U4d1ht8W": {
+            "is_flagged": false,
+            "answers": ["Example option 3"],
+            "type": "single_code",
+            "is_translated": true,
+            "transcribed_answer": [],
+            "is_probing_question": false,
+            "is_starred": false,
+            "is_proofed": true,
+            "original_answers": [],
+            "is_skipped": false,
+            "question": {
+                "id": "xioDhjizscf6U4d1ht8W",
+                "title": "Example single code question title?"
+            },
+            "used_transcription": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/f3ci681b5uyoo7yyj3lo": {
+            "created_by": {
+                "last_name": "Enumerator",
+                "id": "8GU17rVu2XNxCEmbgYPD0hNsS4A2",
+                "first_name": "Example"
+            },
+            "interview": {
+                "id": "mZmvW2R8xYxC8pA71jt8",
+                "title": "Example end-to-end interview with translations"
+            },
+            "is_beneficiary": false,
+            "enumerator_notes": {},
+            "answers": {
+                "xioDhjizscf6U4d1ht8W": {
+                    "original_answers": [],
+                    "is_probing_question": false,
+                    "used_transcription": false,
+                    "is_proofed": true,
+                    "is_skipped": false,
+                    "type": "single_code",
+                    "answers": ["Example option 1"],
+                    "is_flagged": false,
+                    "is_translated": true,
+                    "question": {
+                        "id": "xioDhjizscf6U4d1ht8W",
+                        "title": "Example single code question title?"
+                    },
+                    "is_starred": false,
+                    "transcribed_answer": []
+                },
+                "rqQ6tksdwdXbV4rfvJAE": {
+                    "is_translated": true,
+                    "question": {
+                        "id": "rqQ6tksdwdXbV4rfvJAE",
+                        "title": "¿Son sus necesidades de protección específicas de mujeres, hombres, niños y niñas en esta comunidad?"
+                    },
+                    "is_starred": false,
+                    "is_flagged": false,
+                    "original_answers": ["Hablo con mis padres todos los días, me ayudan mucho."],
+                    "is_skipped": false,
+                    "is_proofed": true,
+                    "answers": ["I speak with my parents every day, they help a lot"],
+                    "transcribed_answer": "I speak with my parents every day, they help a lot!",
+                    "is_probing_question": false,
+                    "used_transcription": true,
+                    "type": "free_text"
+                },
+                "J5yY1HJFcXanx0Qjzm5F": {
+                    "question": {
+                        "id": "J5yY1HJFcXanx0Qjzm5F",
+                        "title": "Example open response question title?"
+                    },
+                    "is_probing_question": false,
+                    "type": "free_text",
+                    "answers": ["I haven't noticed a lot of difference"],
+                    "is_starred": false,
+                    "used_transcription": false,
+                    "is_flagged": false,
+                    "is_proofed": true,
+                    "original_answers": ["no he notado mucha diferencia"],
+                    "transcribed_answer": "",
+                    "is_translated": true,
+                    "is_skipped": false
+                },
+                "PBCEcBxgjdxgWuT5whK3": {
+                    "is_translated": true,
+                    "transcribed_answer": [],
+                    "is_skipped": false,
+                    "question": {
+                        "title": "¿Las mujeres y las niñas suelen viajar fuera de la comunidad en grupos o solas?",
+                        "id": "PBCEcBxgjdxgWuT5whK3"
+                    },
+                    "answers": ["solo/individualmente"],
+                    "original_answers": [],
+                    "is_probing_question": false,
+                    "used_transcription": false,
+                    "is_proofed": true,
+                    "type": "single_code",
+                    "is_flagged": true,
+                    "is_starred": true
+                },
+                "6WjqY2Lwg1tnQqInUfqE": {
+                    "is_translated": true,
+                    "is_proofed": true,
+                    "question": {
+                        "title": "¿Ha habido un aumento en las preocupaciones de seguridad desde la emergencia?",
+                        "id": "6WjqY2Lwg1tnQqInUfqE"
+                    },
+                    "is_probing_question": false,
+                    "answers": ["Sí"],
+                    "is_skipped": false,
+                    "type": "single_code",
+                    "used_transcription": false,
+                    "transcribed_answer": [],
+                    "is_flagged": false,
+                    "original_answers": [],
+                    "is_starred": false
+                },
+                "C8MqNDETIMTiwcXXGWvk": {
+                    "answers": ["No hay lugar seguro en la comunidad"],
+                    "is_skipped": false,
+                    "is_starred": false,
+                    "is_flagged": false,
+                    "used_transcription": false,
+                    "type": "multi_code",
+                    "transcribed_answer": [],
+                    "is_translated": true,
+                    "question": {
+                        "title": "¿Cuáles son las preocupaciones de seguridad y protección más importantes en esta comunidad? (Seleccione todas las que correspondan)",
+                        "id": "C8MqNDETIMTiwcXXGWvk"
+                    },
+                    "is_probing_question": false,
+                    "original_answers": [],
+                    "is_proofed": true
+                },
+                "K0LlifeeMM4wTqWeD1KH": {
+                    "used_transcription": false,
+                    "is_translated": true,
+                    "is_probing_question": false,
+                    "is_skipped": false,
+                    "is_starred": false,
+                    "transcribed_answer": [],
+                    "type": "multi_code",
+                    "is_flagged": false,
+                    "is_proofed": true,
+                    "answers": ["Example option 1", "Example option 2"],
+                    "question": {
+                        "title": "Example multi code question title?",
+                        "id": "K0LlifeeMM4wTqWeD1KH"
+                    },
+                    "original_answers": []
+                }
+            },
+            "consent_relationship": "",
+            "created_at": "2022-03-10T13:01:18.325Z",
+            "duration": 2100000,
+            "project": {"id": "LfM6kx1q7CqHOn85Cd8y", "title": "A complete project example"},
+            "gender": "Male",
+            "end_time": "Mar 10, 2022 01:36:18:PM",
+            "start_time": "Mar 10, 2022 01:01:18:PM"
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/f3ci681b5uyoo7yyj3lo/response_answers/6WjqY2Lwg1tnQqInUfqE": {
+            "is_proofed": true,
+            "type": "single_code",
+            "is_skipped": false,
+            "transcribed_answer": [],
+            "used_transcription": false,
+            "is_starred": false,
+            "is_probing_question": false,
+            "is_translated": true,
+            "question": {
+                "id": "6WjqY2Lwg1tnQqInUfqE",
+                "title": "¿Ha habido un aumento en las preocupaciones de seguridad desde la emergencia?"
+            },
+            "is_flagged": false,
+            "answers": ["Sí"],
+            "original_answers": []
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/f3ci681b5uyoo7yyj3lo/response_answers/C8MqNDETIMTiwcXXGWvk": {
+            "used_transcription": false,
+            "is_starred": false,
+            "transcribed_answer": [],
+            "is_probing_question": false,
+            "is_flagged": false,
+            "answers": ["No hay lugar seguro en la comunidad"],
+            "original_answers": [],
+            "type": "multi_code",
+            "question": {
+                "title": "¿Cuáles son las preocupaciones de seguridad y protección más importantes en esta comunidad? (Seleccione todas las que correspondan)",
+                "id": "C8MqNDETIMTiwcXXGWvk"
+            },
+            "is_translated": true,
+            "is_skipped": false,
+            "is_proofed": true
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/f3ci681b5uyoo7yyj3lo/response_answers/J5yY1HJFcXanx0Qjzm5F": {
+            "transcribed_answer": "",
+            "is_flagged": false,
+            "answers": ["I haven't noticed a lot of difference"],
+            "is_skipped": false,
+            "used_transcription": false,
+            "type": "free_text",
+            "is_proofed": true,
+            "is_starred": false,
+            "original_answers": ["no he notado mucha diferencia"],
+            "question": {
+                "title": "Example open response question title?",
+                "id": "J5yY1HJFcXanx0Qjzm5F"
+            },
+            "is_translated": true,
+            "is_probing_question": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/f3ci681b5uyoo7yyj3lo/response_answers/K0LlifeeMM4wTqWeD1KH": {
+            "type": "multi_code",
+            "is_translated": true,
+            "used_transcription": false,
+            "is_starred": false,
+            "answers": ["Example option 1", "Example option 2"],
+            "original_answers": [],
+            "is_probing_question": false,
+            "is_skipped": false,
+            "transcribed_answer": [],
+            "is_proofed": true,
+            "is_flagged": false,
+            "question": {
+                "id": "K0LlifeeMM4wTqWeD1KH",
+                "title": "Example multi code question title?"
+            }
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/f3ci681b5uyoo7yyj3lo/response_answers/PBCEcBxgjdxgWuT5whK3": {
+            "is_probing_question": false,
+            "type": "single_code",
+            "transcribed_answer": [],
+            "is_translated": true,
+            "question": {
+                "id": "PBCEcBxgjdxgWuT5whK3",
+                "title": "¿Las mujeres y las niñas suelen viajar fuera de la comunidad en grupos o solas?"
+            },
+            "is_proofed": true,
+            "is_flagged": true,
+            "used_transcription": false,
+            "is_starred": true,
+            "original_answers": [],
+            "answers": ["solo/individualmente"],
+            "is_skipped": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/f3ci681b5uyoo7yyj3lo/response_answers/rqQ6tksdwdXbV4rfvJAE": {
+            "used_transcription": true,
+            "transcribed_answer": "I speak with my parents every day, they help a lot!",
+            "original_answers": ["Hablo con mis padres todos los días, me ayudan mucho."],
+            "is_translated": true,
+            "is_probing_question": false,
+            "is_skipped": false,
+            "is_flagged": false,
+            "is_proofed": true,
+            "question": {
+                "title": "¿Son sus necesidades de protección específicas de mujeres, hombres, niños y niñas en esta comunidad?",
+                "id": "rqQ6tksdwdXbV4rfvJAE"
+            },
+            "answers": ["I speak with my parents every day, they help a lot"],
+            "type": "free_text",
+            "is_starred": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/f3ci681b5uyoo7yyj3lo/response_answers/xioDhjizscf6U4d1ht8W": {
+            "is_probing_question": false,
+            "type": "single_code",
+            "transcribed_answer": [],
+            "used_transcription": false,
+            "is_flagged": false,
+            "question": {
+                "id": "xioDhjizscf6U4d1ht8W",
+                "title": "Example single code question title?"
+            },
+            "is_starred": false,
+            "original_answers": [],
+            "answers": ["Example option 1"],
+            "is_translated": true,
+            "is_proofed": true,
+            "is_skipped": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/ruvy1pk0jfv59fomkdo0": {
+            "enumerator_notes": {},
+            "gender": "Female",
+            "created_at": "2022-03-10T13:01:18.330Z",
+            "interview": {
+                "title": "Example end-to-end interview with translations",
+                "id": "mZmvW2R8xYxC8pA71jt8"
+            },
+            "is_beneficiary": false,
+            "duration": 960000,
+            "project": {"title": "A complete project example", "id": "LfM6kx1q7CqHOn85Cd8y"},
+            "consent_relationship": "Parent",
+            "created_by": {
+                "first_name": "Example",
+                "id": "8GU17rVu2XNxCEmbgYPD0hNsS4A2",
+                "last_name": "Enumerator"
+            },
+            "start_time": "Mar 10, 2022 01:01:18:PM",
+            "answers": {
+                "C8MqNDETIMTiwcXXGWvk": {
+                    "is_probing_question": false,
+                    "question": {
+                        "title": "¿Cuáles son las preocupaciones de seguridad y protección más importantes en esta comunidad? (Seleccione todas las que correspondan)",
+                        "id": "C8MqNDETIMTiwcXXGWvk"
+                    },
+                    "is_translated": true,
+                    "original_answers": [],
+                    "transcribed_answer": [],
+                    "is_skipped": false,
+                    "type": "multi_code",
+                    "used_transcription": false,
+                    "answers": [
+                        "No sé",
+                        "Riesgo de ataque al viajar fuera de la comunidad",
+                        "No hay lugar seguro en la comunidad",
+                        "No se puede acceder a los servicios y recursos",
+                        "Violencia/abuso sexual"
+                    ],
+                    "is_flagged": false,
+                    "is_proofed": true,
+                    "is_starred": false
+                },
+                "xioDhjizscf6U4d1ht8W": {
+                    "answers": ["Example option 3"],
+                    "question": {
+                        "title": "Example single code question title?",
+                        "id": "xioDhjizscf6U4d1ht8W"
+                    },
+                    "is_proofed": true,
+                    "used_transcription": false,
+                    "is_skipped": false,
+                    "is_flagged": false,
+                    "transcribed_answer": [],
+                    "type": "single_code",
+                    "is_probing_question": false,
+                    "original_answers": [],
+                    "is_translated": true,
+                    "is_starred": false
+                },
+                "rqQ6tksdwdXbV4rfvJAE": {
+                    "type": "free_text",
+                    "transcribed_answer": "",
+                    "answers": [
+                        "I want to go back to school and get a better education so I can improve my family's life"
+                    ],
+                    "original_answers": [
+                        "Quiero volver a la escuela y obtener una mejor educación para poder mejorar la vida de mi familia."
+                    ],
+                    "is_skipped": false,
+                    "question": {
+                        "title": "¿Son sus necesidades de protección específicas de mujeres, hombres, niños y niñas en esta comunidad?",
+                        "id": "rqQ6tksdwdXbV4rfvJAE"
+                    },
+                    "used_transcription": false,
+                    "is_probing_question": false,
+                    "is_translated": true,
+                    "is_starred": false,
+                    "is_flagged": false,
+                    "is_proofed": true
+                },
+                "J5yY1HJFcXanx0Qjzm5F": {
+                    "transcribed_answer": "",
+                    "is_starred": false,
+                    "original_answers": [
+                        "Quiero volver a la escuela y obtener una mejor educación para poder mejorar la vida de mi familia."
+                    ],
+                    "is_translated": true,
+                    "used_transcription": false,
+                    "is_skipped": false,
+                    "type": "free_text",
+                    "is_flagged": true,
+                    "is_probing_question": false,
+                    "is_proofed": true,
+                    "question": {
+                        "title": "Example open response question title?",
+                        "id": "J5yY1HJFcXanx0Qjzm5F"
+                    },
+                    "answers": [
+                        "I want to go back to school and get a better education so I can improve my family's life"
+                    ]
+                },
+                "K0LlifeeMM4wTqWeD1KH": {
+                    "transcribed_answer": [],
+                    "used_transcription": false,
+                    "is_skipped": false,
+                    "is_translated": true,
+                    "is_flagged": false,
+                    "is_proofed": true,
+                    "is_starred": false,
+                    "answers": ["Example option 2", "Example option 3"],
+                    "is_probing_question": false,
+                    "original_answers": [],
+                    "type": "multi_code",
+                    "question": {
+                        "id": "K0LlifeeMM4wTqWeD1KH",
+                        "title": "Example multi code question title?"
+                    }
+                },
+                "PBCEcBxgjdxgWuT5whK3": {
+                    "original_answers": [],
+                    "used_transcription": false,
+                    "is_skipped": true,
+                    "answers": [],
+                    "is_translated": false,
+                    "type": "single_code",
+                    "transcribed_answer": [],
+                    "is_flagged": false,
+                    "is_probing_question": false,
+                    "question": {
+                        "title": "¿Las mujeres y las niñas suelen viajar fuera de la comunidad en grupos o solas?",
+                        "id": "PBCEcBxgjdxgWuT5whK3"
+                    },
+                    "is_proofed": false,
+                    "is_starred": false
+                },
+                "6WjqY2Lwg1tnQqInUfqE": {
+                    "original_answers": [],
+                    "is_proofed": true,
+                    "is_skipped": false,
+                    "is_translated": true,
+                    "question": {
+                        "title": "¿Ha habido un aumento en las preocupaciones de seguridad desde la emergencia?",
+                        "id": "6WjqY2Lwg1tnQqInUfqE"
+                    },
+                    "answers": ["No"],
+                    "is_starred": false,
+                    "is_flagged": false,
+                    "is_probing_question": false,
+                    "used_transcription": false,
+                    "type": "single_code",
+                    "transcribed_answer": []
+                }
+            },
+            "end_time": "Mar 10, 2022 01:17:18:PM"
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/ruvy1pk0jfv59fomkdo0/response_answers/6WjqY2Lwg1tnQqInUfqE": {
+            "question": {
+                "id": "6WjqY2Lwg1tnQqInUfqE",
+                "title": "¿Ha habido un aumento en las preocupaciones de seguridad desde la emergencia?"
+            },
+            "type": "single_code",
+            "used_transcription": false,
+            "is_translated": true,
+            "answers": ["No"],
+            "is_probing_question": false,
+            "is_skipped": false,
+            "original_answers": [],
+            "is_starred": false,
+            "is_flagged": false,
+            "is_proofed": true,
+            "transcribed_answer": []
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/ruvy1pk0jfv59fomkdo0/response_answers/C8MqNDETIMTiwcXXGWvk": {
+            "original_answers": [],
+            "is_probing_question": false,
+            "is_translated": true,
+            "used_transcription": false,
+            "answers": [
+                "No sé",
+                "Riesgo de ataque al viajar fuera de la comunidad",
+                "No hay lugar seguro en la comunidad",
+                "No se puede acceder a los servicios y recursos",
+                "Violencia/abuso sexual"
+            ],
+            "is_starred": false,
+            "type": "multi_code",
+            "is_flagged": false,
+            "is_proofed": true,
+            "is_skipped": false,
+            "question": {
+                "id": "C8MqNDETIMTiwcXXGWvk",
+                "title": "¿Cuáles son las preocupaciones de seguridad y protección más importantes en esta comunidad? (Seleccione todas las que correspondan)"
+            },
+            "transcribed_answer": []
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/ruvy1pk0jfv59fomkdo0/response_answers/J5yY1HJFcXanx0Qjzm5F": {
+            "is_translated": true,
+            "used_transcription": false,
+            "is_probing_question": false,
+            "is_flagged": true,
+            "transcribed_answer": "",
+            "is_starred": false,
+            "original_answers": [
+                "Quiero volver a la escuela y obtener una mejor educación para poder mejorar la vida de mi familia."
+            ],
+            "is_skipped": false,
+            "question": {
+                "id": "J5yY1HJFcXanx0Qjzm5F",
+                "title": "Example open response question title?"
+            },
+            "is_proofed": true,
+            "type": "free_text",
+            "answers": [
+                "I want to go back to school and get a better education so I can improve my family's life"
+            ]
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/ruvy1pk0jfv59fomkdo0/response_answers/K0LlifeeMM4wTqWeD1KH": {
+            "original_answers": [],
+            "is_proofed": true,
+            "is_flagged": false,
+            "transcribed_answer": [],
+            "used_transcription": false,
+            "is_probing_question": false,
+            "question": {
+                "title": "Example multi code question title?",
+                "id": "K0LlifeeMM4wTqWeD1KH"
+            },
+            "is_skipped": false,
+            "type": "multi_code",
+            "is_translated": true,
+            "is_starred": false,
+            "answers": ["Example option 2", "Example option 3"]
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/ruvy1pk0jfv59fomkdo0/response_answers/PBCEcBxgjdxgWuT5whK3": {
+            "answers": [],
+            "is_probing_question": false,
+            "is_translated": false,
+            "type": "single_code",
+            "is_starred": false,
+            "is_flagged": false,
+            "original_answers": [],
+            "is_proofed": false,
+            "question": {
+                "title": "¿Las mujeres y las niñas suelen viajar fuera de la comunidad en grupos o solas?",
+                "id": "PBCEcBxgjdxgWuT5whK3"
+            },
+            "used_transcription": false,
+            "transcribed_answer": [],
+            "is_skipped": true
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/ruvy1pk0jfv59fomkdo0/response_answers/rqQ6tksdwdXbV4rfvJAE": {
+            "answers": [
+                "I want to go back to school and get a better education so I can improve my family's life"
+            ],
+            "is_translated": true,
+            "is_proofed": true,
+            "original_answers": [
+                "Quiero volver a la escuela y obtener una mejor educación para poder mejorar la vida de mi familia."
+            ],
+            "is_skipped": false,
+            "is_starred": false,
+            "type": "free_text",
+            "is_flagged": false,
+            "is_probing_question": false,
+            "used_transcription": false,
+            "question": {
+                "id": "rqQ6tksdwdXbV4rfvJAE",
+                "title": "¿Son sus necesidades de protección específicas de mujeres, hombres, niños y niñas en esta comunidad?"
+            },
+            "transcribed_answer": ""
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/ruvy1pk0jfv59fomkdo0/response_answers/xioDhjizscf6U4d1ht8W": {
+            "is_flagged": false,
+            "is_proofed": true,
+            "is_translated": true,
+            "question": {
+                "title": "Example single code question title?",
+                "id": "xioDhjizscf6U4d1ht8W"
+            },
+            "is_probing_question": false,
+            "is_starred": false,
+            "answers": ["Example option 3"],
+            "used_transcription": false,
+            "is_skipped": false,
+            "transcribed_answer": [],
+            "type": "single_code",
+            "original_answers": []
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/tbhvmit259g7o8cp3esi": {
+            "answers": {
+                "PBCEcBxgjdxgWuT5whK3": {
+                    "answers": ["solo/individualmente"],
+                    "is_translated": true,
+                    "used_transcription": false,
+                    "original_answers": [],
+                    "is_starred": false,
+                    "transcribed_answer": [],
+                    "question": {
+                        "id": "PBCEcBxgjdxgWuT5whK3",
+                        "title": "¿Las mujeres y las niñas suelen viajar fuera de la comunidad en grupos o solas?"
+                    },
+                    "is_probing_question": false,
+                    "is_skipped": false,
+                    "type": "single_code",
+                    "is_proofed": true,
+                    "is_flagged": false
+                },
+                "C8MqNDETIMTiwcXXGWvk": {
+                    "is_starred": false,
+                    "original_answers": [],
+                    "is_skipped": true,
+                    "question": {
+                        "title": "¿Cuáles son las preocupaciones de seguridad y protección más importantes en esta comunidad? (Seleccione todas las que correspondan)",
+                        "id": "C8MqNDETIMTiwcXXGWvk"
+                    },
+                    "is_flagged": false,
+                    "is_proofed": false,
+                    "is_probing_question": false,
+                    "type": "multi_code",
+                    "answers": [],
+                    "transcribed_answer": [],
+                    "used_transcription": false,
+                    "is_translated": false
+                },
+                "6WjqY2Lwg1tnQqInUfqE": {
+                    "is_proofed": true,
+                    "answers": ["No"],
+                    "is_flagged": true,
+                    "type": "single_code",
+                    "is_skipped": false,
+                    "question": {
+                        "id": "6WjqY2Lwg1tnQqInUfqE",
+                        "title": "¿Ha habido un aumento en las preocupaciones de seguridad desde la emergencia?"
+                    },
+                    "transcribed_answer": [],
+                    "used_transcription": false,
+                    "is_translated": true,
+                    "is_starred": true,
+                    "original_answers": [],
+                    "is_probing_question": false
+                },
+                "rqQ6tksdwdXbV4rfvJAE": {
+                    "is_starred": false,
+                    "used_transcription": false,
+                    "is_translated": true,
+                    "transcribed_answer": "",
+                    "original_answers": [
+                        "El ayuntamiento dice que mejorarán la situación pero nunca ayudan"
+                    ],
+                    "type": "free_text",
+                    "question": {
+                        "id": "rqQ6tksdwdXbV4rfvJAE",
+                        "title": "¿Son sus necesidades de protección específicas de mujeres, hombres, niños y niñas en esta comunidad?"
+                    },
+                    "answers": [
+                        "The local council say they will improve the situation but they never help"
+                    ],
+                    "is_proofed": true,
+                    "is_skipped": false,
+                    "is_probing_question": false,
+                    "is_flagged": false
+                },
+                "xioDhjizscf6U4d1ht8W": {
+                    "is_probing_question": false,
+                    "used_transcription": false,
+                    "is_proofed": true,
+                    "answers": ["Example option 6"],
+                    "is_skipped": false,
+                    "transcribed_answer": [],
+                    "is_starred": false,
+                    "type": "single_code",
+                    "original_answers": [],
+                    "question": {
+                        "title": "Example single code question title?",
+                        "id": "xioDhjizscf6U4d1ht8W"
+                    },
+                    "is_flagged": true,
+                    "is_translated": true
+                },
+                "K0LlifeeMM4wTqWeD1KH": {
+                    "is_skipped": false,
+                    "is_probing_question": false,
+                    "original_answers": [],
+                    "is_flagged": false,
+                    "question": {
+                        "id": "K0LlifeeMM4wTqWeD1KH",
+                        "title": "Example multi code question title?"
+                    },
+                    "transcribed_answer": [],
+                    "type": "multi_code",
+                    "is_starred": true,
+                    "answers": [],
+                    "is_proofed": true,
+                    "is_translated": true,
+                    "used_transcription": false
+                },
+                "J5yY1HJFcXanx0Qjzm5F": {
+                    "transcribed_answer": "",
+                    "is_translated": true,
+                    "type": "free_text",
+                    "original_answers": [
+                        "Salir de mi comunidad puede ser peligroso, trato de evitarlo"
+                    ],
+                    "is_flagged": true,
+                    "is_proofed": true,
+                    "used_transcription": false,
+                    "is_starred": false,
+                    "answers": [
+                        "Going outside of my community can be dangerous, I try and avoid it"
+                    ],
+                    "question": {
+                        "id": "J5yY1HJFcXanx0Qjzm5F",
+                        "title": "Example open response question title?"
+                    },
+                    "is_skipped": false,
+                    "is_probing_question": false
+                }
+            },
+            "consent_relationship": "",
+            "start_time": "Mar 10, 2022 01:01:09:PM",
+            "created_at": "2022-03-10T13:01:09.186Z",
+            "duration": 3000000,
+            "interview": {
+                "id": "mZmvW2R8xYxC8pA71jt8",
+                "title": "Example end-to-end interview with translations"
+            },
+            "created_by": {
+                "first_name": "Example",
+                "id": "8GU17rVu2XNxCEmbgYPD0hNsS4A2",
+                "last_name": "Enumerator"
+            },
+            "is_beneficiary": true,
+            "end_time": "Mar 10, 2022 01:51:09:PM",
+            "gender": "Female",
+            "project": {"title": "A complete project example", "id": "LfM6kx1q7CqHOn85Cd8y"},
+            "enumerator_notes": {
+                "text": "Provident et voluptas sequi quibusdam id. Id voluptatem rerum cupiditate veniam dolor nisi. Consequatur maxime labore aut aspernatur laborum animi. Ut id ut.",
+                "is_proofed": false
+            }
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/tbhvmit259g7o8cp3esi/response_answers/6WjqY2Lwg1tnQqInUfqE": {
+            "type": "single_code",
+            "is_flagged": true,
+            "used_transcription": false,
+            "answers": ["No"],
+            "original_answers": [],
+            "is_starred": true,
+            "transcribed_answer": [],
+            "is_translated": true,
+            "is_proofed": true,
+            "question": {
+                "title": "¿Ha habido un aumento en las preocupaciones de seguridad desde la emergencia?",
+                "id": "6WjqY2Lwg1tnQqInUfqE"
+            },
+            "is_probing_question": false,
+            "is_skipped": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/tbhvmit259g7o8cp3esi/response_answers/C8MqNDETIMTiwcXXGWvk": {
+            "question": {
+                "id": "C8MqNDETIMTiwcXXGWvk",
+                "title": "¿Cuáles son las preocupaciones de seguridad y protección más importantes en esta comunidad? (Seleccione todas las que correspondan)"
+            },
+            "is_starred": false,
+            "used_transcription": false,
+            "transcribed_answer": [],
+            "is_flagged": false,
+            "is_proofed": false,
+            "is_skipped": true,
+            "answers": [],
+            "type": "multi_code",
+            "is_translated": false,
+            "is_probing_question": false,
+            "original_answers": []
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/tbhvmit259g7o8cp3esi/response_answers/J5yY1HJFcXanx0Qjzm5F": {
+            "is_translated": true,
+            "is_flagged": true,
+            "is_starred": false,
+            "answers": ["Going outside of my community can be dangerous, I try and avoid it"],
+            "question": {
+                "id": "J5yY1HJFcXanx0Qjzm5F",
+                "title": "Example open response question title?"
+            },
+            "original_answers": ["Salir de mi comunidad puede ser peligroso, trato de evitarlo"],
+            "used_transcription": false,
+            "is_proofed": true,
+            "is_probing_question": false,
+            "transcribed_answer": "",
+            "is_skipped": false,
+            "type": "free_text"
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/tbhvmit259g7o8cp3esi/response_answers/K0LlifeeMM4wTqWeD1KH": {
+            "type": "multi_code",
+            "is_probing_question": false,
+            "question": {
+                "id": "K0LlifeeMM4wTqWeD1KH",
+                "title": "Example multi code question title?"
+            },
+            "original_answers": [],
+            "is_starred": true,
+            "answers": [],
+            "is_skipped": false,
+            "transcribed_answer": [],
+            "is_flagged": false,
+            "is_proofed": true,
+            "is_translated": true,
+            "used_transcription": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/tbhvmit259g7o8cp3esi/response_answers/PBCEcBxgjdxgWuT5whK3": {
+            "used_transcription": false,
+            "is_flagged": false,
+            "question": {
+                "id": "PBCEcBxgjdxgWuT5whK3",
+                "title": "¿Las mujeres y las niñas suelen viajar fuera de la comunidad en grupos o solas?"
+            },
+            "original_answers": [],
+            "is_skipped": false,
+            "is_probing_question": false,
+            "answers": ["solo/individualmente"],
+            "transcribed_answer": [],
+            "is_translated": true,
+            "type": "single_code",
+            "is_proofed": true,
+            "is_starred": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/tbhvmit259g7o8cp3esi/response_answers/rqQ6tksdwdXbV4rfvJAE": {
+            "is_skipped": false,
+            "original_answers": [
+                "El ayuntamiento dice que mejorarán la situación pero nunca ayudan"
+            ],
+            "is_flagged": false,
+            "transcribed_answer": "",
+            "used_transcription": false,
+            "is_probing_question": false,
+            "question": {
+                "title": "¿Son sus necesidades de protección específicas de mujeres, hombres, niños y niñas en esta comunidad?",
+                "id": "rqQ6tksdwdXbV4rfvJAE"
+            },
+            "is_proofed": true,
+            "is_starred": false,
+            "is_translated": true,
+            "type": "free_text",
+            "answers": ["The local council say they will improve the situation but they never help"]
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/tbhvmit259g7o8cp3esi/response_answers/xioDhjizscf6U4d1ht8W": {
+            "question": {
+                "title": "Example single code question title?",
+                "id": "xioDhjizscf6U4d1ht8W"
+            },
+            "type": "single_code",
+            "is_starred": false,
+            "transcribed_answer": [],
+            "original_answers": [],
+            "is_probing_question": false,
+            "answers": ["Example option 6"],
+            "is_proofed": true,
+            "is_flagged": true,
+            "is_translated": true,
+            "used_transcription": false,
+            "is_skipped": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/ww6awmse10pylvt3htak": {
+            "interview": {
+                "id": "mZmvW2R8xYxC8pA71jt8",
+                "title": "Example end-to-end interview with translations"
+            },
+            "answers": {
+                "K0LlifeeMM4wTqWeD1KH": {
+                    "is_starred": false,
+                    "is_translated": true,
+                    "is_proofed": true,
+                    "transcribed_answer": [],
+                    "is_skipped": false,
+                    "type": "multi_code",
+                    "is_probing_question": false,
+                    "question": {
+                        "id": "K0LlifeeMM4wTqWeD1KH",
+                        "title": "Example multi code question title?"
+                    },
+                    "answers": ["Example option 3", "Example option 2"],
+                    "original_answers": [],
+                    "used_transcription": false,
+                    "is_flagged": false
+                },
+                "C8MqNDETIMTiwcXXGWvk": {
+                    "answers": [
+                        "No sé",
+                        "No hay lugar seguro en la comunidad",
+                        "No se puede acceder a los servicios y recursos",
+                        "Violencia/abuso sexual",
+                        "Que sus familias les pidan matrimonio"
+                    ],
+                    "is_translated": true,
+                    "question": {
+                        "title": "¿Cuáles son las preocupaciones de seguridad y protección más importantes en esta comunidad? (Seleccione todas las que correspondan)",
+                        "id": "C8MqNDETIMTiwcXXGWvk"
+                    },
+                    "original_answers": [],
+                    "transcribed_answer": [],
+                    "is_flagged": false,
+                    "type": "multi_code",
+                    "is_starred": false,
+                    "is_skipped": false,
+                    "is_probing_question": false,
+                    "used_transcription": false,
+                    "is_proofed": true
+                },
+                "6WjqY2Lwg1tnQqInUfqE": {
+                    "question": {
+                        "id": "6WjqY2Lwg1tnQqInUfqE",
+                        "title": "¿Ha habido un aumento en las preocupaciones de seguridad desde la emergencia?"
+                    },
+                    "original_answers": [],
+                    "is_starred": false,
+                    "is_flagged": false,
+                    "used_transcription": false,
+                    "is_probing_question": false,
+                    "answers": ["No"],
+                    "type": "single_code",
+                    "transcribed_answer": [],
+                    "is_translated": true,
+                    "is_skipped": false,
+                    "is_proofed": true
+                },
+                "xioDhjizscf6U4d1ht8W": {
+                    "is_starred": false,
+                    "original_answers": [],
+                    "transcribed_answer": [],
+                    "is_proofed": true,
+                    "type": "single_code",
+                    "is_skipped": false,
+                    "is_translated": true,
+                    "answers": ["Example option 1"],
+                    "is_probing_question": false,
+                    "question": {
+                        "title": "Example single code question title?",
+                        "id": "xioDhjizscf6U4d1ht8W"
+                    },
+                    "is_flagged": false,
+                    "used_transcription": false
+                },
+                "J5yY1HJFcXanx0Qjzm5F": {
+                    "transcribed_answer": "",
+                    "type": "free_text",
+                    "is_proofed": true,
+                    "is_flagged": false,
+                    "is_skipped": false,
+                    "is_starred": true,
+                    "original_answers": ["Hablo con mis padres todos los días, me ayudan mucho."],
+                    "question": {
+                        "id": "J5yY1HJFcXanx0Qjzm5F",
+                        "title": "Example open response question title?"
+                    },
+                    "used_transcription": false,
+                    "answers": ["I speak with my parents every day, they help a lot"],
+                    "is_probing_question": false,
+                    "is_translated": true
+                },
+                "rqQ6tksdwdXbV4rfvJAE": {
+                    "is_starred": true,
+                    "type": "free_text",
+                    "original_answers": [
+                        "Tengo que trabajar muchas horas pero la paga no es tan buena."
+                    ],
+                    "is_proofed": true,
+                    "transcribed_answer": "I have to work long hours but the pay isn't so good!",
+                    "is_probing_question": false,
+                    "used_transcription": true,
+                    "is_skipped": false,
+                    "is_flagged": false,
+                    "is_translated": true,
+                    "question": {
+                        "title": "¿Son sus necesidades de protección específicas de mujeres, hombres, niños y niñas en esta comunidad?",
+                        "id": "rqQ6tksdwdXbV4rfvJAE"
+                    },
+                    "answers": ["I have to work long hours but the pay isn't so good"]
+                },
+                "PBCEcBxgjdxgWuT5whK3": {
+                    "is_starred": true,
+                    "is_flagged": true,
+                    "original_answers": [],
+                    "is_skipped": false,
+                    "is_proofed": true,
+                    "transcribed_answer": [],
+                    "question": {
+                        "title": "¿Las mujeres y las niñas suelen viajar fuera de la comunidad en grupos o solas?",
+                        "id": "PBCEcBxgjdxgWuT5whK3"
+                    },
+                    "is_probing_question": false,
+                    "used_transcription": false,
+                    "is_translated": true,
+                    "type": "single_code",
+                    "answers": ["solo/individualmente"]
+                }
+            },
+            "created_at": "2022-03-10T13:01:18.327Z",
+            "enumerator_notes": {},
+            "created_by": {
+                "first_name": "Example",
+                "last_name": "Enumerator",
+                "id": "8GU17rVu2XNxCEmbgYPD0hNsS4A2"
+            },
+            "consent_relationship": "Friend",
+            "is_beneficiary": false,
+            "end_time": "Mar 10, 2022 02:02:18:PM",
+            "gender": "Other",
+            "start_time": "Mar 10, 2022 01:01:18:PM",
+            "duration": 3660000,
+            "project": {"id": "LfM6kx1q7CqHOn85Cd8y", "title": "A complete project example"}
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/ww6awmse10pylvt3htak/response_answers/6WjqY2Lwg1tnQqInUfqE": {
+            "answers": ["No"],
+            "is_skipped": false,
+            "question": {
+                "title": "¿Ha habido un aumento en las preocupaciones de seguridad desde la emergencia?",
+                "id": "6WjqY2Lwg1tnQqInUfqE"
+            },
+            "is_starred": false,
+            "is_proofed": true,
+            "is_flagged": false,
+            "original_answers": [],
+            "transcribed_answer": [],
+            "used_transcription": false,
+            "type": "single_code",
+            "is_translated": true,
+            "is_probing_question": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/ww6awmse10pylvt3htak/response_answers/C8MqNDETIMTiwcXXGWvk": {
+            "is_starred": false,
+            "answers": [
+                "No sé",
+                "No hay lugar seguro en la comunidad",
+                "No se puede acceder a los servicios y recursos",
+                "Violencia/abuso sexual",
+                "Que sus familias les pidan matrimonio"
+            ],
+            "is_proofed": true,
+            "is_translated": true,
+            "is_skipped": false,
+            "used_transcription": false,
+            "original_answers": [],
+            "type": "multi_code",
+            "is_probing_question": false,
+            "question": {
+                "title": "¿Cuáles son las preocupaciones de seguridad y protección más importantes en esta comunidad? (Seleccione todas las que correspondan)",
+                "id": "C8MqNDETIMTiwcXXGWvk"
+            },
+            "is_flagged": false,
+            "transcribed_answer": []
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/ww6awmse10pylvt3htak/response_answers/J5yY1HJFcXanx0Qjzm5F": {
+            "type": "free_text",
+            "is_proofed": true,
+            "original_answers": ["Hablo con mis padres todos los días, me ayudan mucho."],
+            "is_probing_question": false,
+            "is_skipped": false,
+            "is_flagged": false,
+            "question": {
+                "id": "J5yY1HJFcXanx0Qjzm5F",
+                "title": "Example open response question title?"
+            },
+            "transcribed_answer": "",
+            "answers": ["I speak with my parents every day, they help a lot"],
+            "used_transcription": false,
+            "is_starred": true,
+            "is_translated": true
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/ww6awmse10pylvt3htak/response_answers/K0LlifeeMM4wTqWeD1KH": {
+            "is_translated": true,
+            "is_flagged": false,
+            "is_proofed": true,
+            "answers": ["Example option 3", "Example option 2"],
+            "is_skipped": false,
+            "question": {
+                "title": "Example multi code question title?",
+                "id": "K0LlifeeMM4wTqWeD1KH"
+            },
+            "type": "multi_code",
+            "is_probing_question": false,
+            "original_answers": [],
+            "used_transcription": false,
+            "is_starred": false,
+            "transcribed_answer": []
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/ww6awmse10pylvt3htak/response_answers/PBCEcBxgjdxgWuT5whK3": {
+            "transcribed_answer": [],
+            "used_transcription": false,
+            "is_skipped": false,
+            "is_proofed": true,
+            "is_translated": true,
+            "is_flagged": true,
+            "question": {
+                "id": "PBCEcBxgjdxgWuT5whK3",
+                "title": "¿Las mujeres y las niñas suelen viajar fuera de la comunidad en grupos o solas?"
+            },
+            "is_starred": true,
+            "original_answers": [],
+            "is_probing_question": false,
+            "type": "single_code",
+            "answers": ["solo/individualmente"]
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/ww6awmse10pylvt3htak/response_answers/rqQ6tksdwdXbV4rfvJAE": {
+            "used_transcription": true,
+            "is_probing_question": false,
+            "is_starred": true,
+            "is_proofed": true,
+            "is_translated": true,
+            "question": {
+                "title": "¿Son sus necesidades de protección específicas de mujeres, hombres, niños y niñas en esta comunidad?",
+                "id": "rqQ6tksdwdXbV4rfvJAE"
+            },
+            "is_skipped": false,
+            "is_flagged": false,
+            "answers": ["I have to work long hours but the pay isn't so good"],
+            "original_answers": ["Tengo que trabajar muchas horas pero la paga no es tan buena."],
+            "transcribed_answer": "I have to work long hours but the pay isn't so good!",
+            "type": "free_text"
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/ww6awmse10pylvt3htak/response_answers/xioDhjizscf6U4d1ht8W": {
+            "is_translated": true,
+            "question": {
+                "title": "Example single code question title?",
+                "id": "xioDhjizscf6U4d1ht8W"
+            },
+            "is_skipped": false,
+            "is_flagged": false,
+            "is_proofed": true,
+            "used_transcription": false,
+            "is_starred": false,
+            "type": "single_code",
+            "original_answers": [],
+            "is_probing_question": false,
+            "answers": ["Example option 1"],
+            "transcribed_answer": []
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/yy3damlv1g11j1kp95yq": {
+            "answers": {
+                "C8MqNDETIMTiwcXXGWvk": {
+                    "original_answers": [],
+                    "is_proofed": true,
+                    "is_probing_question": false,
+                    "answers": ["Que sus familias les pidan matrimonio"],
+                    "type": "multi_code",
+                    "is_starred": false,
+                    "used_transcription": false,
+                    "is_skipped": false,
+                    "transcribed_answer": [],
+                    "is_translated": true,
+                    "is_flagged": false,
+                    "question": {
+                        "title": "¿Cuáles son las preocupaciones de seguridad y protección más importantes en esta comunidad? (Seleccione todas las que correspondan)",
+                        "id": "C8MqNDETIMTiwcXXGWvk"
+                    }
+                },
+                "rqQ6tksdwdXbV4rfvJAE": {
+                    "original_answers": [
+                        "Tengo que trabajar muchas horas pero la paga no es tan buena."
+                    ],
+                    "type": "free_text",
+                    "question": {
+                        "title": "¿Son sus necesidades de protección específicas de mujeres, hombres, niños y niñas en esta comunidad?",
+                        "id": "rqQ6tksdwdXbV4rfvJAE"
+                    },
+                    "answers": ["I have to work long hours but the pay isn't so good"],
+                    "used_transcription": false,
+                    "transcribed_answer": "",
+                    "is_probing_question": false,
+                    "is_skipped": false,
+                    "is_starred": false,
+                    "is_translated": true,
+                    "is_flagged": false,
+                    "is_proofed": true
+                },
+                "J5yY1HJFcXanx0Qjzm5F": {
+                    "transcribed_answer": "I speak with my parents every day, they help a lot!",
+                    "is_translated": true,
+                    "is_proofed": true,
+                    "is_flagged": false,
+                    "question": {
+                        "title": "Example open response question title?",
+                        "id": "J5yY1HJFcXanx0Qjzm5F"
+                    },
+                    "is_probing_question": false,
+                    "is_skipped": false,
+                    "is_starred": true,
+                    "original_answers": ["Hablo con mis padres todos los días, me ayudan mucho."],
+                    "used_transcription": true,
+                    "answers": ["I speak with my parents every day, they help a lot"],
+                    "type": "free_text"
+                },
+                "K0LlifeeMM4wTqWeD1KH": {
+                    "transcribed_answer": [],
+                    "question": {
+                        "id": "K0LlifeeMM4wTqWeD1KH",
+                        "title": "Example multi code question title?"
+                    },
+                    "used_transcription": false,
+                    "original_answers": [],
+                    "is_starred": false,
+                    "is_translated": true,
+                    "is_flagged": true,
+                    "answers": ["Example option 3"],
+                    "is_probing_question": false,
+                    "is_proofed": true,
+                    "type": "multi_code",
+                    "is_skipped": false
+                },
+                "xioDhjizscf6U4d1ht8W": {
+                    "question": {
+                        "id": "xioDhjizscf6U4d1ht8W",
+                        "title": "Example single code question title?"
+                    },
+                    "type": "single_code",
+                    "is_translated": true,
+                    "original_answers": [],
+                    "is_probing_question": false,
+                    "is_flagged": false,
+                    "answers": ["Example option 3"],
+                    "is_skipped": false,
+                    "is_proofed": true,
+                    "transcribed_answer": [],
+                    "is_starred": true,
+                    "used_transcription": false
+                },
+                "6WjqY2Lwg1tnQqInUfqE": {
+                    "is_translated": true,
+                    "type": "single_code",
+                    "question": {
+                        "id": "6WjqY2Lwg1tnQqInUfqE",
+                        "title": "¿Ha habido un aumento en las preocupaciones de seguridad desde la emergencia?"
+                    },
+                    "is_skipped": false,
+                    "original_answers": [],
+                    "is_probing_question": false,
+                    "used_transcription": false,
+                    "is_proofed": true,
+                    "is_flagged": false,
+                    "transcribed_answer": [],
+                    "is_starred": false,
+                    "answers": ["No"]
+                },
+                "PBCEcBxgjdxgWuT5whK3": {
+                    "used_transcription": false,
+                    "is_proofed": true,
+                    "is_flagged": false,
+                    "question": {
+                        "id": "PBCEcBxgjdxgWuT5whK3",
+                        "title": "¿Las mujeres y las niñas suelen viajar fuera de la comunidad en grupos o solas?"
+                    },
+                    "is_skipped": false,
+                    "answers": ["solo/individualmente"],
+                    "original_answers": [],
+                    "is_translated": true,
+                    "type": "single_code",
+                    "is_probing_question": false,
+                    "transcribed_answer": [],
+                    "is_starred": true
+                }
+            },
+            "project": {"title": "A complete project example", "id": "LfM6kx1q7CqHOn85Cd8y"},
+            "duration": 1560000,
+            "gender": "Male",
+            "created_at": "2022-03-10T13:01:18.327Z",
+            "start_time": "Mar 10, 2022 01:01:18:PM",
+            "end_time": "Mar 10, 2022 01:27:18:PM",
+            "consent_relationship": "Friend",
+            "enumerator_notes": {
+                "is_proofed": false,
+                "text": "Dicta dolor alias. Necessitatibus ea soluta doloremque qui minus. Sit occaecati dolor et magnam ex enim quasi. Et rerum et nemo voluptas sit odio ullam modi. Molestiae consectetur deleniti amet et quod eum."
+            },
+            "created_by": {
+                "first_name": "Example",
+                "last_name": "Enumerator",
+                "id": "8GU17rVu2XNxCEmbgYPD0hNsS4A2"
+            },
+            "is_beneficiary": false,
+            "interview": {
+                "id": "mZmvW2R8xYxC8pA71jt8",
+                "title": "Example end-to-end interview with translations"
+            }
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/yy3damlv1g11j1kp95yq/response_answers/6WjqY2Lwg1tnQqInUfqE": {
+            "transcribed_answer": [],
+            "is_skipped": false,
+            "is_proofed": true,
+            "type": "single_code",
+            "used_transcription": false,
+            "answers": ["No"],
+            "is_starred": false,
+            "is_translated": true,
+            "is_probing_question": false,
+            "question": {
+                "title": "¿Ha habido un aumento en las preocupaciones de seguridad desde la emergencia?",
+                "id": "6WjqY2Lwg1tnQqInUfqE"
+            },
+            "original_answers": [],
+            "is_flagged": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/yy3damlv1g11j1kp95yq/response_answers/C8MqNDETIMTiwcXXGWvk": {
+            "question": {
+                "id": "C8MqNDETIMTiwcXXGWvk",
+                "title": "¿Cuáles son las preocupaciones de seguridad y protección más importantes en esta comunidad? (Seleccione todas las que correspondan)"
+            },
+            "is_skipped": false,
+            "is_flagged": false,
+            "is_proofed": true,
+            "used_transcription": false,
+            "transcribed_answer": [],
+            "is_translated": true,
+            "is_starred": false,
+            "is_probing_question": false,
+            "answers": ["Que sus familias les pidan matrimonio"],
+            "original_answers": [],
+            "type": "multi_code"
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/yy3damlv1g11j1kp95yq/response_answers/J5yY1HJFcXanx0Qjzm5F": {
+            "answers": ["I speak with my parents every day, they help a lot"],
+            "type": "free_text",
+            "is_skipped": false,
+            "is_starred": true,
+            "question": {
+                "id": "J5yY1HJFcXanx0Qjzm5F",
+                "title": "Example open response question title?"
+            },
+            "is_probing_question": false,
+            "original_answers": ["Hablo con mis padres todos los días, me ayudan mucho."],
+            "transcribed_answer": "I speak with my parents every day, they help a lot!",
+            "is_flagged": false,
+            "is_translated": true,
+            "is_proofed": true,
+            "used_transcription": true
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/yy3damlv1g11j1kp95yq/response_answers/K0LlifeeMM4wTqWeD1KH": {
+            "question": {
+                "id": "K0LlifeeMM4wTqWeD1KH",
+                "title": "Example multi code question title?"
+            },
+            "is_translated": true,
+            "is_flagged": true,
+            "original_answers": [],
+            "transcribed_answer": [],
+            "is_probing_question": false,
+            "is_proofed": true,
+            "is_skipped": false,
+            "used_transcription": false,
+            "is_starred": false,
+            "answers": ["Example option 3"],
+            "type": "multi_code"
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/yy3damlv1g11j1kp95yq/response_answers/PBCEcBxgjdxgWuT5whK3": {
+            "used_transcription": false,
+            "type": "single_code",
+            "is_flagged": false,
+            "is_translated": true,
+            "is_proofed": true,
+            "is_skipped": false,
+            "transcribed_answer": [],
+            "is_probing_question": false,
+            "is_starred": true,
+            "question": {
+                "id": "PBCEcBxgjdxgWuT5whK3",
+                "title": "¿Las mujeres y las niñas suelen viajar fuera de la comunidad en grupos o solas?"
+            },
+            "original_answers": [],
+            "answers": ["solo/individualmente"]
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/yy3damlv1g11j1kp95yq/response_answers/rqQ6tksdwdXbV4rfvJAE": {
+            "original_answers": ["Tengo que trabajar muchas horas pero la paga no es tan buena."],
+            "is_probing_question": false,
+            "is_flagged": false,
+            "transcribed_answer": "",
+            "is_proofed": true,
+            "is_skipped": false,
+            "question": {
+                "title": "¿Son sus necesidades de protección específicas de mujeres, hombres, niños y niñas en esta comunidad?",
+                "id": "rqQ6tksdwdXbV4rfvJAE"
+            },
+            "used_transcription": false,
+            "type": "free_text",
+            "is_translated": true,
+            "is_starred": false,
+            "answers": ["I have to work long hours but the pay isn't so good"]
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/interviews/mZmvW2R8xYxC8pA71jt8/responses/yy3damlv1g11j1kp95yq/response_answers/xioDhjizscf6U4d1ht8W": {
+            "type": "single_code",
+            "is_probing_question": false,
+            "answers": ["Example option 3"],
+            "question": {
+                "id": "xioDhjizscf6U4d1ht8W",
+                "title": "Example single code question title?"
+            },
+            "is_proofed": true,
+            "is_flagged": false,
+            "is_translated": true,
+            "original_answers": [],
+            "used_transcription": false,
+            "is_starred": true,
+            "transcribed_answer": [],
+            "is_skipped": false
+        },
+        "projects/LfM6kx1q7CqHOn85Cd8y/projects_public/LfM6kx1q7CqHOn85Cd8y": {
+            "assigned_users_ids": ["rMiClQoCHWRV6C5an3jvMGisWFQ2", "8GU17rVu2XNxCEmbgYPD0hNsS4A2"],
+            "title": "A complete project example",
+            "created_at": "2022-02-15T19:28:33.073Z",
+            "is_archived": false,
+            "description": "This is an example of a complete end-to-end project.",
+            "interviews_count": 0,
+            "is_active": true
+        },
+        "projects/dedb7b9b5e674aca91e63d1bae255b3f": {
+            "description": "An example project decsription",
+            "created_by": {
+                "first_name": "Example",
+                "uid": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2",
+                "last_name": "Administrator"
+            },
+            "title": "An example project",
+            "updated_at": "2022-03-07T21:58:01.983Z",
+            "created_at": "2022-02-15T13:24:55.000Z",
+            "interviews_count": "0",
+            "updated_by": {
+                "last_name": "Administrator",
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2",
+                "first_name": "Example"
+            },
+            "is_active": true,
+            "assigned_users": [
+                {
+                    "last_name": "Assessment Lead",
+                    "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2",
+                    "first_name": "Example"
+                },
+                {
+                    "last_name": "Enumerator",
+                    "id": "8GU17rVu2XNxCEmbgYPD0hNsS4A2",
+                    "first_name": "Example"
+                }
+            ],
+            "location_region": "New York City",
+            "id": "dedb7b9b5e674aca91e63d1bae255b3f",
+            "is_archived": false,
+            "location": {"region": "Juba", "country": "SS"},
+            "assigned_users_ids": ["rMiClQoCHWRV6C5an3jvMGisWFQ2", "8GU17rVu2XNxCEmbgYPD0hNsS4A2"],
+            "location_country": "United States"
+        },
+        "projects/dedb7b9b5e674aca91e63d1bae255b3f/projects_public/dedb7b9b5e674aca91e63d1bae255b3f": {
+            "assigned_users_ids": ["rMiClQoCHWRV6C5an3jvMGisWFQ2", "8GU17rVu2XNxCEmbgYPD0hNsS4A2"],
+            "description": "An example project decsription",
+            "is_active": true,
+            "created_at": "2022-02-15T13:24:55.000Z",
+            "title": "An example project"
+        }
+    }
+}

@@ -1,0 +1,129 @@
+{
+    "seed": {
+        "templates/25VSuKZy8AAE4XlcCbsQ": {
+            "question_title": "Example multi code question title",
+            "is_archived": false,
+            "question_options": ["Example option 1", "Example option 2", "Example option 3"],
+            "question_description": "Example multi code question description",
+            "created_by": {
+                "first_name": "Example",
+                "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2",
+                "last_name": "Assessment Lead"
+            },
+            "primary_language": "en",
+            "question_type": "multi_code",
+            "created_at": "2022-02-15T19:38:47.192Z",
+            "type": "question",
+            "title": "Example multi code template title",
+            "usage": "Example multi code template usage example"
+        },
+        "templates/R6Fl8R8KEbkr3puYwVSW": {
+            "type": "question",
+            "question_options": [],
+            "updated_by": {
+                "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2",
+                "first_name": "Example",
+                "last_name": "Assessment Lead"
+            },
+            "updated_at": "2022-02-15T19:39:15.227Z",
+            "usage": "Example open response template usage example",
+            "question_description": "Example open response question description",
+            "title": "Example open response template title",
+            "question_title": "Example open response question title",
+            "is_archived": false,
+            "primary_language": "en",
+            "created_by": {
+                "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2",
+                "first_name": "Example",
+                "last_name": "Assessment Lead"
+            },
+            "created_at": "2022-02-15T19:37:02.592Z",
+            "question_type": "free_text"
+        },
+        "templates/ZsJVmkSnxCmlQmu9F3hK": {
+            "script": "Exemple de script de consentement en français",
+            "primary_language": "fr",
+            "confirmation_options": [
+                {"label": "Exemple de confirmation de consentement en français option 1"},
+                {"label": "Exemple de confirmation de consentement en français option 2"},
+                {"label": "Exemple de confirmation de consentement en français option 3"}
+            ],
+            "created_at": "2022-02-21T20:14:07.035Z",
+            "usage": "Exemple d'utilisation du consentement en français",
+            "is_archived": false,
+            "type": "consent",
+            "confirmation_question": "Exemple de question de confirmation de consentement en français",
+            "created_by": {
+                "last_name": "Admin",
+                "id": "0QyTedUZ8WQVnMgpb6fRF64RD462",
+                "first_name": "Sean"
+            },
+            "title": "Exemple de titre de consentement en français"
+        },
+        "templates/h4eGM6e8gNSeKShyBvbr": {
+            "updated_at": "2022-02-15T19:38:59.784Z",
+            "question_title": "Example single code question title",
+            "question_type": "single_code",
+            "created_by": {
+                "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2",
+                "first_name": "Example",
+                "last_name": "Assessment Lead"
+            },
+            "title": "Example single code template title",
+            "type": "question",
+            "is_archived": false,
+            "question_description": "Example single code question description",
+            "primary_language": "en",
+            "usage": "Example single code template usage example",
+            "created_at": "2022-02-15T19:37:43.706Z",
+            "question_options": ["Example option 1"],
+            "updated_by": {
+                "last_name": "Assessment Lead",
+                "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2",
+                "first_name": "Example"
+            }
+        },
+        "templates/rHvVCRJr6NjecUHyM5Vn": {
+            "confirmation_options": [
+                {"label": "Example English consent confirmation option 1"},
+                {"label": "Example English consent confirmation option 2"},
+                {"label": "Example English consent confirmation option 3"}
+            ],
+            "primary_language": "en",
+            "created_at": "2022-02-15T19:33:28.680Z",
+            "is_archived": false,
+            "usage": "Example English consent usage example",
+            "created_by": {
+                "first_name": "Example",
+                "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2",
+                "last_name": "Assessment Lead"
+            },
+            "script": "Example English consent script",
+            "confirmation_question": "Example English consent confirmation question",
+            "type": "consent",
+            "title": "Example English consent title"
+        },
+        "templates/v3TRbiXneb2HT8oL8YRZ": {
+            "question_description": "Example probing question template question description",
+            "created_by": {
+                "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2",
+                "first_name": "Example",
+                "last_name": "Assessment Lead"
+            },
+            "primary_language": "en",
+            "usage": "Example probing question template usage example",
+            "is_archived": false,
+            "type": "probing_question",
+            "question_type": "free_text",
+            "title": "Example probing question template title",
+            "created_at": "2022-02-15T19:39:46.128Z",
+            "question_title": "Example probing question template question tile"
+        },
+        "templates/v3TRbiXneb2HT8oL8YRZ/templates_public/v3TRbiXneb2HT8oL8YRZ": {
+            "question_description": "Example probing question template question description",
+            "type": "probing_question",
+            "is_archived": false,
+            "question_title": "Example probing question template question tile"
+        }
+    }
+}

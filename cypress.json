@@ -1,0 +1,33 @@
+{
+    "baseUrl": "http://localhost:3000",
+    "blockHosts": ["*.google-analytics.com", ""],
+    "defaultCommandTimeout": 10000,
+    "pageLoadTimeout": 120000,
+    "video": false,
+    "viewportWidth": 1440,
+    "viewportHeight": 1040,
+    "env": {
+        "SERVICE_ACCOUNT": "",
+        "USE_FIREBASE_EMULATOR": "",
+        "FIRESTORE_EMULATOR_HOST": "",
+        "ASSESSMENT_LEAD_EMAIL": "",
+        "ASSESSMENT_LEAD_PASSWORD": "",
+        "ASSESSMENT_LEAD_UID": "",
+        "ENUMERATOR_EMAIL": "",
+        "ENUMERATOR_PASSWORD": "",
+        "ENUMERATOR_UID": "",
+        "ADMINISTRATOR_EMAIL": "",
+        "ADMINISTRATOR_PASSWORD": "",
+        "ADMINISTRATOR_UID": "",
+        "FIREBASE_API_KEY": "",
+        "FIREBASE_AUTH_DOMAIN": "",
+        "FIREBASE_PROJECT_ID": "",
+        "NEXTAUTH_SECRET": "",
+        "NEXTAUTH_SESSION_TOKEN": "",
+        "NEXT_PUBLIC_SENTRY_DSN": "",
+        "SENTRY_URL": "",
+        "SENTRY_ORG": "",
+        "SENTRY_PROJECT": "",
+        "SENTRY_AUTH_TOKEN": ""
+    }
+}

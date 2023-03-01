@@ -1,0 +1,53 @@
+{
+    "seed": {
+        "users/5kjhgeUKTTOb0zXpw3heAHfj3Zu2": {
+            "first_name": "Example",
+            "country": "KE",
+            "email": "voiceapptestadministrator@domain.com",
+            "last_name": "Administrator",
+            "active": "2022-03-10T12:47:18.383Z",
+            "is_available_for_projects": false,
+            "is_archived": false,
+            "role": "administrator",
+            "company_name": "Example Company",
+            "updated_at": "2022-03-05T21:35:51.851Z",
+            "updated_by": {
+                "first_name": "Example",
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2",
+                "last_name": "Administrator"
+            }
+        },
+        "users/8GU17rVu2XNxCEmbgYPD0hNsS4A2": {
+            "is_available_for_projects": true,
+            "last_name": "Enumerator",
+            "is_archived": false,
+            "updated_by": {
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2",
+                "last_name": "Administrator",
+                "first_name": "Example"
+            },
+            "updated_at": "2022-03-05T21:37:52.902Z",
+            "role": "enumerator",
+            "email": "voiceapptestenumerator@domain.com",
+            "company_name": "Example Company",
+            "first_name": "Example",
+            "country": "PS"
+        },
+        "users/rMiClQoCHWRV6C5an3jvMGisWFQ2": {
+            "country": "SS",
+            "is_archived": false,
+            "is_available_for_projects": true,
+            "updated_by": {
+                "first_name": "Example",
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2",
+                "last_name": "Administrator"
+            },
+            "updated_at": "2022-03-05T21:34:10.327Z",
+            "role": "assessment_lead",
+            "first_name": "Example",
+            "last_name": "Assessment Lead",
+            "email": "voiceapptestassessmentlead@domain.com",
+            "company_name": "Example Company"
+        }
+    }
+}

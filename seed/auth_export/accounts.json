@@ -1,0 +1,77 @@
+{
+    "kind": "identitytoolkit#DownloadAccountResponse",
+    "users": [
+        {
+            "localId": "8GU17rVu2XNxCEmbgYPD0hNsS4A2",
+            "createdAt": "1645481228604",
+            "lastLoginAt": "1645481228603",
+            "displayName": "Example Enumerator",
+            "photoUrl": "",
+            "emailVerified": false,
+            "email": "voiceapptestenumerator@domain.com",
+            "salt": "fakeSaltohjcF5r42LauKxgHQd68",
+            "passwordHash": "fakeHash:salt=fakeSaltohjcF5r42LauKxgHQd68:password=19SctlHqyBoOT7ZuDE5QB5WSekGyxPDY076k1DxD",
+            "passwordUpdatedAt": 1645481228603,
+            "validSince": "1645481228",
+            "providerUserInfo": [
+                {
+                    "providerId": "password",
+                    "email": "voiceapptestenumerator@domain.com",
+                    "federatedId": "voiceapptestenumerator@domain.com",
+                    "rawId": "voiceapptestenumerator@domain.com",
+                    "displayName": "Example Enumerator",
+                    "photoUrl": ""
+                }
+            ],
+            "customAttributes": "{\"role\":\"enumerator\"}"
+        },
+        {
+            "localId": "rMiClQoCHWRV6C5an3jvMGisWFQ2",
+            "createdAt": "1645481182464",
+            "lastLoginAt": "1645481182464",
+            "displayName": "Example Assessment Lead",
+            "photoUrl": "",
+            "emailVerified": false,
+            "email": "voiceapptestassessmentlead@domain.com",
+            "salt": "fakeSaltuAgqMqq8G5oIsFD6yLtd",
+            "passwordHash": "fakeHash:salt=fakeSaltuAgqMqq8G5oIsFD6yLtd:password=gBSSKPSXmKzJ4caJ7S5ec3QmIpbBp1LDQu2xEDND",
+            "passwordUpdatedAt": 1645481182464,
+            "validSince": "1645481182",
+            "providerUserInfo": [
+                {
+                    "providerId": "password",
+                    "email": "voiceapptestassessmentlead@domain.com",
+                    "federatedId": "voiceapptestassessmentlead@domain.com",
+                    "rawId": "voiceapptestassessmentlead@domain.com",
+                    "displayName": "Example Assessment Lead",
+                    "photoUrl": ""
+                }
+            ],
+            "customAttributes": "{\"role\":\"assessment_lead\"}"
+        },
+        {
+            "localId": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2",
+            "createdAt": "1645481208340",
+            "lastLoginAt": "1645481208339",
+            "displayName": "Example Administrator",
+            "photoUrl": "",
+            "emailVerified": false,
+            "email": "voiceapptestadministrator@domain.com",
+            "salt": "fakeSalt7Qb3TiIgdXCMmgsGfDf2",
+            "passwordHash": "fakeHash:salt=fakeSalt7Qb3TiIgdXCMmgsGfDf2:password=tFr0QRvff4ROc9e23UeEuPBHMfB6mLWl4QAIgfkC",
+            "passwordUpdatedAt": 1645481208340,
+            "validSince": "1645481208",
+            "providerUserInfo": [
+                {
+                    "providerId": "password",
+                    "email": "voiceapptestadministrator@domain.com",
+                    "federatedId": "voiceapptestadministrator@domain.com",
+                    "rawId": "voiceapptestadministrator@domain.com",
+                    "displayName": "Example Administrator",
+                    "photoUrl": ""
+                }
+            ],
+            "customAttributes": "{\"role\":\"administrator\"}"
+        }
+    ]
+}

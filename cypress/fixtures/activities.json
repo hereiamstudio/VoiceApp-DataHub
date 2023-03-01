@@ -1,0 +1,219 @@
+{
+    "seed": {
+        "activities/0JcPoraid2UxMp3au3IJ": {
+            "created_by": {
+                "last_name": "Administrator",
+                "first_name": "Example",
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2"
+            },
+            "action": "Edited an interview",
+            "ip": "::1",
+            "info": {"project_id": "LfM6kx1q7CqHOn85Cd8y", "interview_id": "mZmvW2R8xYxC8pA71jt8"},
+            "created_at": "2022-03-09T13:06:32.831Z",
+            "type": "Interview"
+        },
+        "activities/0tDJ9xsEo99558A8DYow": {
+            "ip": "::1",
+            "action": "Added a question",
+            "created_by": {
+                "last_name": "Administrator",
+                "first_name": "Example",
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2"
+            },
+            "type": "Question",
+            "created_at": "2022-03-09T13:16:54.697Z",
+            "info": {"question_id": "C8MqNDETIMTiwcXXGWvk"}
+        },
+        "activities/1PUl2bHWquz9WdisAmEM": {
+            "ip": "::1",
+            "type": "Question",
+            "created_at": "2022-03-09T13:17:46.233Z",
+            "info": {"question_id": "PBCEcBxgjdxgWuT5whK3"},
+            "created_by": {
+                "first_name": "Example",
+                "last_name": "Administrator",
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2"
+            },
+            "action": "Added a question"
+        },
+        "activities/1U8avdY9ShdpCfdOpOhc": {
+            "type": "Question",
+            "created_at": "2022-03-09T13:17:18.433Z",
+            "action": "Added a question",
+            "info": {"question_id": "rqQ6tksdwdXbV4rfvJAE"},
+            "ip": "::1",
+            "created_by": {
+                "first_name": "Example",
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2",
+                "last_name": "Administrator"
+            }
+        },
+        "activities/1a89pGco1otDqwrMxwl0": {
+            "action": "Added a question",
+            "type": "Question",
+            "created_at": "2022-02-21T20:26:31.673Z",
+            "info": {"question_id": "zbZcIjIfd1BwWmRoyl9x"},
+            "ip": "::1",
+            "created_by": {
+                "id": "0QyTedUZ8WQVnMgpb6fRF64RD462",
+                "last_name": "Admin",
+                "first_name": "Sean"
+            }
+        },
+        "activities/2CPE9HyM2nmz6ya0A1Dy": {
+            "action": "Edited a question",
+            "ip": "::1",
+            "type": "Question",
+            "created_by": {
+                "first_name": "Example",
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2",
+                "last_name": "Administrator"
+            },
+            "info": {
+                "project_id": "LfM6kx1q7CqHOn85Cd8y",
+                "question_id": "J5yY1HJFcXanx0Qjzm5F",
+                "interview_id": "mZmvW2R8xYxC8pA71jt8"
+            },
+            "created_at": "2022-03-09T13:07:06.646Z"
+        },
+        "activities/2NMMjCzVKK4owX9RV1tC": {
+            "created_by": {
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2",
+                "last_name": "Administrator",
+                "first_name": "Example"
+            },
+            "created_at": "2022-03-09T13:07:11.537Z",
+            "type": "Question",
+            "ip": "::1",
+            "action": "Edited a question",
+            "info": {
+                "interview_id": "mZmvW2R8xYxC8pA71jt8",
+                "question_id": "xioDhjizscf6U4d1ht8W",
+                "project_id": "LfM6kx1q7CqHOn85Cd8y"
+            }
+        },
+        "activities/39vtz5jpbtBwb2cQtpOJ": {
+            "created_at": "2022-03-05T21:34:01.148Z",
+            "type": "User",
+            "action": "Edited a user",
+            "info": {"user_id": "rMiClQoCHWRV6C5an3jvMGisWFQ2"},
+            "ip": "::1",
+            "created_by": {
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2",
+                "first_name": "Example",
+                "last_name": "Administrator"
+            }
+        },
+        "activities/66acGj2KohUREEHzNvhX": {
+            "ip": "::1",
+            "info": {"interview_id": "7fhRHzkk811XoMhcyr9t", "project_id": "LfM6kx1q7CqHOn85Cd8y"},
+            "created_by": {
+                "last_name": "Admin",
+                "id": "0QyTedUZ8WQVnMgpb6fRF64RD462",
+                "first_name": "Sean"
+            },
+            "action": "Edited an interview",
+            "type": "Interview",
+            "created_at": "2022-02-21T20:26:42.705Z"
+        },
+        "activities/6zIVWcGVBjbFO2dxeIpZ": {
+            "action": "Edited an interview",
+            "created_at": "2022-02-15T19:36:13.414Z",
+            "ip": "::1",
+            "info": {"project_id": "LfM6kx1q7CqHOn85Cd8y", "interview_id": "mZmvW2R8xYxC8pA71jt8"},
+            "created_by": {
+                "first_name": "Example",
+                "last_name": "Assessment Lead",
+                "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2"
+            },
+            "type": "Interview"
+        },
+        "activities/7cXTYMx9QbNTGGYm4LEp": {
+            "type": "User",
+            "ip": "::1",
+            "created_at": "2022-03-05T21:34:10.403Z",
+            "action": "Edited a user",
+            "info": {"user_id": "rMiClQoCHWRV6C5an3jvMGisWFQ2"},
+            "created_by": {
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2",
+                "first_name": "Example",
+                "last_name": "Administrator"
+            }
+        },
+        "activities/A9AaFbZzPBcRO68Dv003": {
+            "info": {
+                "project_id": "LfM6kx1q7CqHOn85Cd8y",
+                "interview_ids": ["7fhRHzkk811XoMhcyr9t"]
+            },
+            "ip": "::1",
+            "type": "Export",
+            "created_at": "2022-02-21T21:15:58.946Z",
+            "action": "Exported an interview report",
+            "created_by": {
+                "first_name": "Sean",
+                "last_name": "Admin",
+                "id": "0QyTedUZ8WQVnMgpb6fRF64RD462"
+            }
+        },
+        "activities/AwISKuddMuaLc0CyKvPP": {
+            "created_by": {
+                "id": "0QyTedUZ8WQVnMgpb6fRF64RD462",
+                "last_name": "Admin",
+                "first_name": "Sean"
+            },
+            "ip": "::1",
+            "info": {"template_id": "ZsJVmkSnxCmlQmu9F3hK"},
+            "created_at": "2022-02-21T20:14:07.125Z",
+            "type": "Template",
+            "action": "Added a template"
+        },
+        "activities/Bh3cuw3w9f2ZO7PeMBYW": {
+            "created_by": {
+                "first_name": "Example",
+                "id": "5kjhgeUKTTOb0zXpw3heAHfj3Zu2",
+                "last_name": "Administrator"
+            },
+            "action": "Edited a project",
+            "info": {"project_id": "dedb7b9b5e674aca91e63d1bae255b3f"},
+            "created_at": "2022-03-07T21:58:02.246Z",
+            "ip": "::1",
+            "type": "Project"
+        },
+        "activities/BlQJKCVh4as6Eew4LmJj": {
+            "created_by": {
+                "last_name": "Assessment Lead",
+                "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2",
+                "first_name": "Example"
+            },
+            "ip": "::1",
+            "created_at": "2022-02-15T19:34:15.964Z",
+            "type": "Interview",
+            "action": "Edited an interview",
+            "info": {"project_id": "LfM6kx1q7CqHOn85Cd8y", "interview_id": "mZmvW2R8xYxC8pA71jt8"}
+        },
+        "activities/BryoNqlo9Qmi6tQ8AaKQ": {
+            "action": "Added an interview",
+            "type": "Interview",
+            "ip": "::1",
+            "created_by": {
+                "first_name": "Example",
+                "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2",
+                "last_name": "Assessment Lead"
+            },
+            "created_at": "2022-02-15T19:29:34.129Z",
+            "info": {"project_id": "LfM6kx1q7CqHOn85Cd8y", "interview_id": "mZmvW2R8xYxC8pA71jt8"}
+        },
+        "activities/EJ1BRTHfgufEZYy1nrBW": {
+            "type": "Template",
+            "ip": "::1",
+            "action": "Added a template",
+            "created_by": {
+                "first_name": "Example",
+                "last_name": "Assessment Lead",
+                "id": "rMiClQoCHWRV6C5an3jvMGisWFQ2"
+            },
+            "info": {"template_id": "v3TRbiXneb2HT8oL8YRZ"},
+            "created_at": "2022-02-15T19:39:46.236Z"
+        }
+    }
+}

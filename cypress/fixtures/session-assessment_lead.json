@@ -1,0 +1,15 @@
+{
+    "user": {
+        "is_archived": false,
+        "role": "assessment_lead",
+        "email": "assessmentlead@domain.com",
+        "first_name": "AssessmentLead",
+        "last_name": "User",
+        "active": 1644872285499,
+        "uid": "0RMStY58dhwRrsx6c34x",
+        "token": "",
+        "refreshToken": ""
+    },
+    "expires": "3000-01-01T00:00:00.000Z",
+    "accessToken": "abcdefghijklmnopqrst"
+}

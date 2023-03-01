@@ -1,0 +1,156 @@
+{
+    "seed": {
+        "reports/7fhRHzkk811XoMhcyr9t": {
+            "enumerator_notes": {},
+            "average_duration": 108000,
+            "flaggedQuestions": {},
+            "skippedQuestions": {},
+            "genders_count": {"male": 0, "female": 1, "other": 0},
+            "start_date": 1645200070000,
+            "genders_percent": {"other": "0", "male": "0", "female": "100"},
+            "openResponsesOrdered": {"zbZcIjIfd1BwWmRoyl9x": ["19zoLrCX32fVY6Mlpg9H"]},
+            "total_flags_count": 0,
+            "beneficiaries_percent": "0",
+            "end_date": 1645200178000,
+            "total_stars_count": 0,
+            "probingQuestions": {},
+            "openResponses": {
+                "zbZcIjIfd1BwWmRoyl9x": {
+                    "19zoLrCX32fVY6Mlpg9H": {
+                        "is_starred": false,
+                        "proofed_at": "",
+                        "is_translated": true,
+                        "is_proofed": true,
+                        "is_flagged": false,
+                        "original_answer": "Cette réponse permettra de tester les traductions automatiques",
+                        "answer": "This answer will help test automatic translations",
+                        "id": "19zoLrCX32fVY6Mlpg9H",
+                        "proofed_by": "",
+                        "transcribed_answer": "",
+                        "used_transcription": false
+                    }
+                }
+            },
+            "questions": [
+                {
+                    "id": "zbZcIjIfd1BwWmRoyl9x",
+                    "total_answers": 1,
+                    "number": 1,
+                    "title": {
+                        "fr": "Exemple de titre de question à réponse ouverte",
+                        "en": "Example of an open-ended question title"
+                    },
+                    "total_skips": 0,
+                    "total_stars": 0,
+                    "type": "free_text",
+                    "options_selected": [],
+                    "total_flags": 0
+                }
+            ],
+            "respondents_count": 1,
+            "starredQuestions": {},
+            "additional_consent_percent": "100",
+            "total_skips_count": 0,
+            "languages": ["fr", "en"]
+        },
+        "reports/mZmvW2R8xYxC8pA71jt8": {
+            "enumerator_notes": {},
+            "genders_count": {"male": 0, "female": 1, "other": 0},
+            "probingQuestions": {},
+            "additional_consent_percent": "100",
+            "skippedQuestions": {},
+            "beneficiaries_percent": "0",
+            "questions": [
+                {
+                    "number": 1,
+                    "total_skips": 0,
+                    "type": "free_text",
+                    "total_flags": 0,
+                    "title": {"en": "Example open response question title"},
+                    "options_selected": [],
+                    "total_answers": 1,
+                    "id": "J5yY1HJFcXanx0Qjzm5F",
+                    "total_stars": 1
+                },
+                {
+                    "id": "xioDhjizscf6U4d1ht8W",
+                    "type": "single_code",
+                    "total_flags": 0,
+                    "title": {"en": "Example single code question title"},
+                    "total_skips": 0,
+                    "options_selected": [
+                        {"count": 0, "title": "Example option 1"},
+                        {"title": "Example option 2", "count": 0},
+                        {"count": 0, "title": "Example option 3"},
+                        {"count": 1, "title": "Example option 4"},
+                        {"count": 0, "title": "Example option 5"},
+                        {"title": "Example option 6", "count": 0}
+                    ],
+                    "number": 2,
+                    "total_answers": 1,
+                    "total_stars": 0
+                },
+                {
+                    "options_selected": [
+                        {"title": "Example option 1", "count": 0},
+                        {"title": "Example option 2", "count": 1},
+                        {"count": 1, "title": "Example option 3"}
+                    ],
+                    "total_skips": 0,
+                    "total_flags": 1,
+                    "total_answers": 2,
+                    "number": 3,
+                    "total_stars": 0,
+                    "type": "multi_code",
+                    "title": {"en": "Example multi code question title"},
+                    "id": "K0LlifeeMM4wTqWeD1KH"
+                }
+            ],
+            "start_date": 1645104229000,
+            "openResponsesOrdered": {"J5yY1HJFcXanx0Qjzm5F": ["GVeVZUzXxBPJIJfEas7q"]},
+            "total_skips_count": 0,
+            "respondents_count": 1,
+            "flaggedQuestions": {
+                "K0LlifeeMM4wTqWeD1KH": [
+                    {
+                        "id": "GVeVZUzXxBPJIJfEas7q",
+                        "question": "Example multi code question title",
+                        "answer": "Example option 2, Example option 3"
+                    }
+                ]
+            },
+            "end_date": 1645104913000,
+            "starredQuestions": {
+                "J5yY1HJFcXanx0Qjzm5F": [
+                    {
+                        "question": "Example open response question title",
+                        "id": "GVeVZUzXxBPJIJfEas7q",
+                        "answer": "This is an example open response answer, it can be a short answer or much longer depending on the context of the question."
+                    }
+                ]
+            },
+            "genders_percent": {"other": "0", "male": "0", "female": "100"},
+            "average_duration": 684000,
+            "openResponses": {
+                "J5yY1HJFcXanx0Qjzm5F": {
+                    "GVeVZUzXxBPJIJfEas7q": {
+                        "id": "GVeVZUzXxBPJIJfEas7q",
+                        "proofed_at": "",
+                        "is_starred": true,
+                        "is_translated": false,
+                        "transcribed_answer": "This is an example open response answer, it can be a short answer or much longer depending on the context of the question.",
+                        "is_flagged": false,
+                        "answer": "This is an example open response answer, it can be a short answer or much longer depending on the context of the question.",
+                        "is_proofed": false,
+                        "proofed_by": "",
+                        "used_transcription": true,
+                        "original_answer": ""
+                    }
+                }
+            },
+            "languages": ["en"],
+            "total_stars_count": 1,
+            "total_flags_count": 1
+        }
+    }
+}

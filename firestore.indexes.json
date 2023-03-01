@@ -1,0 +1,914 @@
+{
+    "indexes": [
+        {
+            "collectionGroup": "activities",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "created_by.id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "created_at",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "activities",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "type",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "created_at",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "answers",
+            "queryScope": "COLLECTION_GROUP",
+            "fields": [
+                {
+                    "fieldPath": "response.id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "order",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "interview",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "project.id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "title",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "interviews",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "assigned_users_ids",
+                    "arrayConfig": "CONTAINS"
+                },
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "created_at",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "interviews",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "created_at",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "interviews",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "status",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "created_at",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "interviews_public",
+            "queryScope": "COLLECTION_GROUP",
+            "fields": [
+                {
+                    "fieldPath": "assigned_users_ids",
+                    "arrayConfig": "CONTAINS"
+                },
+                {
+                    "fieldPath": "created_at",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "interviews_public",
+            "queryScope": "COLLECTION_GROUP",
+            "fields": [
+                {
+                    "fieldPath": "assigned_users_ids",
+                    "arrayConfig": "CONTAINS"
+                },
+                {
+                    "fieldPath": "is_active",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "project.id",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "interviews_public",
+            "queryScope": "COLLECTION_GROUP",
+            "fields": [
+                {
+                    "fieldPath": "assigned_users_ids",
+                    "arrayConfig": "CONTAINS"
+                },
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "project.id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "status",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "interviews_public",
+            "queryScope": "COLLECTION_GROUP",
+            "fields": [
+                {
+                    "fieldPath": "assigned_users_ids",
+                    "arrayConfig": "CONTAINS"
+                },
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "project.id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "status",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "created_at",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "interviews_public",
+            "queryScope": "COLLECTION_GROUP",
+            "fields": [
+                {
+                    "fieldPath": "assigned_users_ids",
+                    "arrayConfig": "CONTAINS"
+                },
+                {
+                    "fieldPath": "project.id",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "interviews_public",
+            "queryScope": "COLLECTION_GROUP",
+            "fields": [
+                {
+                    "fieldPath": "assigned_users_ids",
+                    "arrayConfig": "CONTAINS"
+                },
+                {
+                    "fieldPath": "updated_at",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "interviews_public",
+            "queryScope": "COLLECTION_GROUP",
+            "fields": [
+                {
+                    "fieldPath": "is_active",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "created_at",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "invites",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "status",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "created_at",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "projects",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "assigned_users_ids",
+                    "arrayConfig": "CONTAINS"
+                },
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "created_at",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "projects",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_active",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "created_at",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "projects",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "country",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "projects",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "country",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "projects",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "created",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "projects",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "created_at",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "projects",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "created_at",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "projects",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "location.country",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "projects",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "location.country",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "projects",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "title",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "projects",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "title",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "projects",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "updated_at",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "projects",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "updated_at",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "projects_public",
+            "queryScope": "COLLECTION_GROUP",
+            "fields": [
+                {
+                    "fieldPath": "assigned_users_ids",
+                    "arrayConfig": "CONTAINS"
+                },
+                {
+                    "fieldPath": "is_active",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "created_at",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "questions",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "order",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "questions_public",
+            "queryScope": "COLLECTION_GROUP",
+            "fields": [
+                {
+                    "fieldPath": "interview.id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "order",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "questions_public",
+            "queryScope": "COLLECTION_GROUP",
+            "fields": [
+                {
+                    "fieldPath": "interview.id",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "order",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "templates",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "created_at",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "templates",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "primary_language",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "type",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "created_at",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "templates",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "type",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "created_at",
+                    "order": "DESCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "templates_public",
+            "queryScope": "COLLECTION_GROUP",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "question_title",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "users",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "country",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "first_name",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "last_name",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "users",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "first_name",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "last_name",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "users",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "id",
+                    "arrayConfig": "CONTAINS"
+                },
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "first_name",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "last_name",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "users",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "first_name",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "last_name",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "users",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "is_available_for_projects",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "first_name",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "last_name",
+                    "order": "ASCENDING"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "users",
+            "queryScope": "COLLECTION",
+            "fields": [
+                {
+                    "fieldPath": "is_archived",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "role",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "first_name",
+                    "order": "ASCENDING"
+                },
+                {
+                    "fieldPath": "last_name",
+                    "order": "ASCENDING"
+                }
+            ]
+        }
+    ],
+    "fieldOverrides": [
+        {
+            "collectionGroup": "interviews",
+            "fieldPath": "project.id",
+            "indexes": [
+                {
+                    "order": "ASCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "order": "DESCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "arrayConfig": "CONTAINS",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "order": "ASCENDING",
+                    "queryScope": "COLLECTION_GROUP"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "interviews_public",
+            "fieldPath": "assigned_users_ids",
+            "indexes": [
+                {
+                    "order": "ASCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "order": "DESCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "arrayConfig": "CONTAINS",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "arrayConfig": "CONTAINS",
+                    "queryScope": "COLLECTION_GROUP"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "interviews_public",
+            "fieldPath": "project.id",
+            "indexes": [
+                {
+                    "order": "ASCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "order": "DESCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "arrayConfig": "CONTAINS",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "order": "ASCENDING",
+                    "queryScope": "COLLECTION_GROUP"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "projects",
+            "fieldPath": "response.id",
+            "indexes": [
+                {
+                    "order": "ASCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "order": "DESCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "arrayConfig": "CONTAINS",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "order": "ASCENDING",
+                    "queryScope": "COLLECTION_GROUP"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "projects_public",
+            "fieldPath": "assigned_users_ids",
+            "indexes": [
+                {
+                    "order": "ASCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "order": "DESCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "arrayConfig": "CONTAINS",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "arrayConfig": "CONTAINS",
+                    "queryScope": "COLLECTION_GROUP"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "questions",
+            "fieldPath": "project.id",
+            "indexes": [
+                {
+                    "order": "ASCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "order": "DESCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "arrayConfig": "CONTAINS",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "order": "ASCENDING",
+                    "queryScope": "COLLECTION_GROUP"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "questions_public",
+            "fieldPath": "assigned_users_ids",
+            "indexes": [
+                {
+                    "order": "ASCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "order": "DESCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "arrayConfig": "CONTAINS",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "arrayConfig": "CONTAINS",
+                    "queryScope": "COLLECTION_GROUP"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "questions_public",
+            "fieldPath": "interview.id",
+            "indexes": [
+                {
+                    "order": "ASCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "order": "DESCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "arrayConfig": "CONTAINS",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "order": "ASCENDING",
+                    "queryScope": "COLLECTION_GROUP"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "questions_public",
+            "fieldPath": "project.id",
+            "indexes": [
+                {
+                    "order": "ASCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "order": "DESCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "arrayConfig": "CONTAINS",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "order": "ASCENDING",
+                    "queryScope": "COLLECTION_GROUP"
+                }
+            ]
+        },
+        {
+            "collectionGroup": "responses_queue",
+            "fieldPath": "id",
+            "indexes": [
+                {
+                    "order": "ASCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "order": "DESCENDING",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "arrayConfig": "CONTAINS",
+                    "queryScope": "COLLECTION"
+                },
+                {
+                    "order": "ASCENDING",
+                    "queryScope": "COLLECTION_GROUP"
+                }
+            ]
+        }
+    ]
+}

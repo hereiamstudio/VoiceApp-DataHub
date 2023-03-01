@@ -1,0 +1,124 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Common rules:
+    // - By default no access is allowed
+    match /{document=**} {
+      allow read, list, create, update, delete: if false;
+    }
+
+    // Project, interview, question and responses rules:
+    // Users are not allowed to view projects
+    match /projects/{project} {
+      allow read, list, create, update, delete: if false;
+
+      // Users are allowed to view the public projects they have been assigned to
+      match /projects_public/{project_public} {
+        allow create, update, delete: if false;
+        allow read, list: if request.auth.uid in resource.data.assigned_users_ids;
+      }
+
+      // Users are not allowed to view interviews
+      match /interviews/{interview} {
+        allow read, list, create, update, delete: if false;
+
+        // Users are allowed to view the public interviews they have been assigned to
+        match /interviews_public/{interview_public} {
+          allow create, update, delete: if false;
+          allow read, list: if request.auth.uid in resource.data.assigned_users_ids;
+        }
+
+        // Users are not allowed to view questions
+        match /questions/{question} {
+          allow read, list, create, update, delete: if false;
+
+          // Users are allowed to view the public questions they are signed-in
+          match /questions_public/{question_public} {
+            allow create, update, delete: if false;
+            allow read, list: if isSignedIn();
+          }
+        }
+
+        // Users are not allowed to view responses or any other document included in sub-collections
+        match /responses/{document=**} {
+          allow read, list,create, update, delete: if false;
+        }
+
+        // Users are not allowed to view the response queue or any other document included in sub-collections
+        // But they can create a response queue document(WIP!!)
+        match /responses_queue/{document=**} {
+          allow read, list, update, delete: if false;
+          allow create: if request.auth != null &&
+                           request.resource.data.project_id != null &&
+                           request.resource.data.interview_id != null &&
+                           request.resource.data.enumerator_id != null;
+          allow create: if request.auth != null &&
+                           request.resource.data.data != null &&
+                           request.resource.data.encryption_version != null &&
+                           request.resource.data.iv != null &&
+                           request.resource.data.secret != null;
+        }
+      }
+    }
+
+    // Collection group rules:
+    // We have to duplicate the rules for public folders within a project as
+    // the collection group queries we use require them
+    match /{path=**}/projects_public/{project} {
+      allow create, update, delete: if false;
+      allow read, list: if request.auth.uid in resource.data.assigned_users_ids;
+    }
+    match /{path=**}/interviews_public/{interview} {
+      allow create, update, delete: if false;
+      allow read, list: if request.auth.uid in resource.data.assigned_users_ids;
+    }
+    match /{path=**}/questions_public/{question} {
+      allow create, update, delete: if false;
+      allow read, list: if request.auth != null;
+    }
+    match /{path=**}/templates_public/{question} {
+      allow create, update, delete: if false;
+      allow read, list: if request.auth != null;
+    }
+
+    // Users:
+    // - Users can read if they are signed-in
+    // - Users can write if they are signed-in
+    match /users/{document=**} {
+      allow read, list: if request.auth != null;
+      allow create, update: if request.auth != null;
+    }
+
+    // Activities:
+    // - Users can read if they are signed-in
+    match /Activities/{document=**} {
+      allow read, list: if request.auth != null;
+      allow create, update: if request.auth != null;
+    }
+
+    // Exports:
+    // - Exports cannot be read or written by anyone
+    match /users/{document=**} {
+      allow read, list, create, update, delete: if false;
+    }
+
+    // Invites:
+    // - Users can read if they are signed-in or not
+    // - Users can write if they are signed-in
+    match /invites/{document=**} {
+      allow read, list;
+      allow create, update: if request.auth != null;
+    }
+  }
+}
+
+service firebase.storage {
+    match /b/{bucket}/o {
+      // By default no access is allowed. All write/read will be via Data Hub API
+      // which has full access
+      match /{allPaths=**} {
+        allow read, list, create, update, delete: if false;
+      }
+  }
+}

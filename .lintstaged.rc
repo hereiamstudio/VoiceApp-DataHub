@@ -1,0 +1,9 @@
+{
+    "*.+(js|ts|tsx)": [
+        "eslint"
+    ],
+    "*.+(js|json|ts|tsx)": [
+        "prettier --write '**/*.(js|json|ts|tsx)' --config prettier.config.js --loglevel error",
+        "git add"
+    ]
+}

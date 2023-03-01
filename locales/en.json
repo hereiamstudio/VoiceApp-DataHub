@@ -1,0 +1,1095 @@
+{
+    "name": "VoiceApp",
+    "header": {
+        "title": "Admin"
+    },
+    "seo": {
+        "title": "VoiceApp",
+        "description": "",
+        "canonical": "https://domain.com"
+    },
+    "mainNavigation": {
+        "links": [
+            {"url": "/", "label": "Dashboard", "icon": "home"},
+            {"url": "/projects", "label": "Projects", "icon": "folder"},
+            {"url": "/templates", "label": "Templates", "icon": "collection"},
+            {"url": "/users", "label": "Users", "icon": "users"},
+            {"url": "/activities", "label": "Activities", "icon": "list"}
+        ],
+        "editAccount": "Manage account"
+    },
+    "generic": {
+        "navigationWelcome": "Hello, ",
+        "apiError": "Sorry, an error occurred when fetching the data. Please try again.",
+        "formError": "There are errors that need your attention.",
+        "formSubmissionError": "An error occurred",
+        "emptySelectField": "Select a value",
+        "pagination": {
+            "previous": "Previous",
+            "next": "Next"
+        },
+        "dataActions": {
+            "label": "Actions"
+        },
+        "notFound": {
+            "title": "Page not found",
+            "text": "Sorry, we couldn't find the page you were looking for.",
+            "cta": "Go back to dashboard"
+        },
+        "save": "Save",
+        "loginRequired": {
+            "title": "Login required",
+            "text": "You must login before you can continue",
+            "cta": "Login"
+        },
+        "filterBy": "Filter by",
+        "updatedBy": "Updated by",
+        "actions": "Actions",
+        "assignUsers": {
+            "placeholder": "Assigned users will be listed here",
+            "assigned_users_select": {
+                "empty": "Please assign at least one user",
+                "label": "Available users",
+                "placeholder": "Select a user"
+            },
+            "selected": "Assigned users",
+            "add": "Add to assigned users",
+            "addAll": "Add all available users",
+            "remove": "Remove from selected users"
+        },
+        "isActiveUser": "You",
+        "isOwner": "Owner",
+        "closeModal": "Cancel",
+        "primaryLanguageWarning": "The primary language is not English. Some of the text fields and buttons will appear right-to-left to support translations for the app.",
+        "resetForm": {
+            "cta": "Reset form",
+            "title": "Reset form data",
+            "text": "Are you sure you want to reset the form?",
+            "confirm": "Continue",
+            "cancel": "Cancel"
+        },
+        "chooseLanguage": "Language",
+        "automatedTranslation": "automated translation",
+        "automatedTranslationTip": "Translations are automatically generated using Google Cloud Translation and may not be 100% accurate"
+    },
+    "roles": {
+        "administrator": {
+            "text": "An Administrator can:",
+            "actions": [
+                "Create and modify any user",
+                "Create and modify any projects",
+                "Create and modify any interviews",
+                "View reports"
+            ]
+        },
+        "assessment_lead": {
+            "text": "An Assessment Lead can:",
+            "actions": ["Create projects", "Create interviews", "Add users to their projects"]
+        },
+        "enumerator": {
+            "text": "An Enumerator can:",
+            "actions": ["Perform interviews on the app"]
+        }
+    },
+    "passwordCriteria": {
+        "length": "Must be 8 characters or more",
+        "alphanumeric": "Must include uppercase and lowercase letters, and numbers"
+    },
+    "login": {
+        "title": "VoiceApp",
+        "text": "Sign in to your account to continue",
+        "email": {
+            "empty": "Please enter your email address",
+            "label": "Email address",
+            "invalid": "Please enter a valid email address"
+        },
+        "password": {
+            "label": "Password",
+            "empty": "Please enter your password"
+        },
+        "redirected": "You must login to continue",
+        "auth/invalid-email": "Please enter a valid email address",
+        "auth/user-disabled": "This account is not active. Please contact an admin.",
+        "auth/user-not-found": "Sorry, this account does not exist.",
+        "auth/wrong-password": "Your credentials were wrong. Please try again.",
+        "submit": "Sign in",
+        "verificationRequested": "We have sent a verification request to your email",
+        "forgotPassword": {
+            "title": "Forgot your password?",
+            "submit": "Request password reset",
+            "cancel": "Cancel",
+            "success": "We have sent you an email. Please follow the link in your email to reset your password.",
+            "login": "Return to login"
+        },
+        "success": {
+            "title": "Welcome back!",
+            "text": "You are now logged-in."
+        }
+    },
+    "register": {
+        "title": "VoiceApp",
+        "text": "%{name} has invited you to join VoiceApp. Add your password to complete your account registration.",
+        "loginToAccount": "Already have an account?",
+        "password": {
+            "label": "Password",
+            "empty": "Please create a password",
+            "minLength": "The password must be 8 characters or more",
+            "maxLength": "The password must be less than 40 characters",
+            "alphanumeric": "The password must contain a mix of uppercase, lowercase and numbers"
+        },
+        "confirm_password": {
+            "label": "Confirm password",
+            "empty": "Please confirm your password",
+            "error": "The passwords do not match"
+        },
+        "submit": "Register account",
+        "error": {
+            "title": "Invite not found",
+            "text": "Sorry, your invitation could not be found"
+        },
+        "success": {
+            "title": "Sign-up complete",
+            "text": "Your account has been registered and you can now login to the VoiceApp Data Hub. Thanks!",
+            "textEnumerator": "Your account has been registered and you can now login via the VoiceApp app. Thanks!"
+        }
+    },
+    "idleTimeout": {
+        "title": "You are about to be logged out...",
+        "text": "You have been inactive for 15 minutes. In 5 minutes time you will be logged out if you are still inactive.",
+        "confirm": "Continue",
+        "cancel": "Log out"
+    },
+    "accountVerification": {
+        "loading": "Updating your account verification",
+        "success": {
+            "title": "Account verified",
+            "text": "Thanks! Your email is now verified and you can now log in."
+        }
+    },
+    "account": {
+        "title": "Your account",
+        "update": "Update",
+        "profile": {
+            "title": "Your details",
+            "text": "These details will be visible to other users on the VoiceApp Data Hub.",
+            "first_name": {
+                "empty": "Please enter your first name",
+                "label": "First name"
+            },
+            "last_name": {
+                "empty": "Please enter your last name",
+                "label": "Last name"
+            },
+            "email": {
+                "empty": "Please enter your first name",
+                "label": "Email address",
+                "invalid": "Please enter a valid email address"
+            },
+            "company_name": {
+                "empty": "Please enter your company name",
+                "label": "Company name"
+            },
+            "country": {
+                "empty": "Please select your country",
+                "label": "Country"
+            },
+            "updateSuccess": {
+                "title": "Account updated",
+                "text": "Your account details were successfully updated"
+            }
+        },
+        "password": {
+            "title": "Your password",
+            "text": "Your password is used to authenticate to both the Data Hub and App.",
+            "toggle": "Update password",
+            "password": {
+                "label": "Password",
+                "empty": "Please create a password",
+                "minLength": "The password must be 8 characters or more",
+                "maxLength": "The password must be less than 40 characters",
+                "alphanumeric": "The password must contain a mix of uppercase, lowercase and numbers"
+            }
+        },
+        "role": {
+            "title": "Your role",
+            "text": "Your role determines what level of data you have access to and what actions you can perform.",
+            "activeRole": "Your role is "
+        },
+        "logout": {
+            "title": "Logout of your account",
+            "text": "Logging out will remove your stored information on this device. You will need to login with your password to access the Data Hub again.",
+            "cta": "Logout"
+        },
+        "verify": {
+            "banner": {
+                "text": "You need to verify your email address",
+                "cta": "View your account"
+            },
+            "title": "Verify your email address",
+            "text": "Your email account has not be verified. You will need to verify your email address to continue using the Data Hub.",
+            "cta": "Send verification email",
+            "pending": "Verification pending",
+            "success": "We have sent a verification email. Please check your inbox."
+        },
+        "confirm": {
+            "title": "Confirm account change",
+            "text": "If you wish to change your email or password you will need to login again. Are you sure you want to continue?",
+            "submit": "Continue and update account",
+            "cancel": "Cancel"
+        }
+    },
+    "dashboard": {
+        "title": "Dashboard"
+    },
+    "projectsList": {
+        "title": "All projects",
+        "create": "New project",
+        "update": "Update project",
+        "view": "View interviews",
+        "empty": "We couldn't find any projects for you. Try changing the filters or create new one.",
+        "headings": ["Title", "Country", "Interviews", "Last updated"],
+        "filters": [
+            {
+                "title": "View",
+                "field": "is_archived",
+                "options": [
+                    {"label": "All", "value": false},
+                    {"label": "Archived", "value": true}
+                ]
+            }
+        ],
+        "sort": [
+            {"label": "Created asc", "value": "created_at,asc"},
+            {"label": "Created desc", "value": "created_at,desc"},
+            {"label": "Updated asc", "value": "updated_at,asc"},
+            {"label": "Updated desc", "value": "updated_at,desc"},
+            {"label": "Title asc", "value": "title,asc"},
+            {"label": "Title desc", "value": "title,desc"},
+            {"label": "Country asc", "value": "location.country,asc"},
+            {"label": "Country desc", "value": "location.country,desc"}
+        ],
+        "active": "Active",
+        "activeDescription": "Interviews for this project are still ongoing",
+        "inactive": "Inactive",
+        "inactiveDescription": "All interviews for this project have been conducted"
+    },
+    "projectsCreate": {
+        "title": "Create a project",
+        "project": {
+            "_title": "Project details",
+            "text": "These details will be visible on the App. After creating your project you can then assign users on the next page.",
+            "submit": "Create project",
+            "createSuccess": {
+                "title": "Project created",
+                "text": "The project was successfully created. You can now assign users to the project."
+            }
+        }
+    },
+    "projectsUpdate": {
+        "title": "Update a project",
+        "details": {
+            "_title": "Project details",
+            "text": "These details will be visible on the App.",
+            "submit": "Update project",
+            "updateSuccess": {
+                "title": "Project updated",
+                "text": "The project was successfully updated."
+            }
+        },
+        "users": {
+            "title": "Assign users",
+            "text": "Only assigned users will be able to view this project on the App. Users must be set to 'Available for projects' to be listed as an option.",
+            "submit": "Update users"
+        },
+        "restore": {
+            "title": "This project is archived",
+            "text": "This project is currently archived. It cannot be viewed on the App.",
+            "cta": "Restore project",
+            "updateSuccess": {
+                "title": "Project restored",
+                "text": "The project has been restored"
+            }
+        },
+        "archive": {
+            "title": "Archive project",
+            "text": "Archiving a project will prevent it from being listed on the App.",
+            "cta": "Archive project",
+            "modal": {
+                "title": "Archive project",
+                "text": "Are you sure you want to archive this project? Archived projects will no longer be listed on the App. Once archived, all assigned users will be removed from the project.",
+                "confirm": "Archive",
+                "cancel": "Cancel"
+            },
+            "updateSuccess": {
+                "title": "Project archived",
+                "text": "The project has been archived"
+            }
+        }
+    },
+    "interviewsStatuses": {
+        "draft": {
+            "text": "A draft interview:",
+            "actions": [
+                "Is not visible on the App",
+                "Details can be updated",
+                "Questions can be updated",
+                "Assigned users can be updated",
+                "Reports cannot be viewed"
+            ]
+        },
+        "active": {
+            "text": "An active interview:",
+            "actions": [
+                "Is visible on the App",
+                "Details can be updated",
+                "Questions cannot be updated",
+                "Assigned users cannot be removed, but additional users can be assigned",
+                "Reports can be viewed"
+            ]
+        },
+        "complete": {
+            "text": "A complete interview:",
+            "actions": [
+                "Is not visible on the App",
+                "Details cannot be updated",
+                "Questions cannot be updated",
+                "Assigned users cannot be updated",
+                "Reports can be viewed"
+            ]
+        }
+    },
+    "interviewsList": {
+        "title": "All interviews",
+        "back": "All projects",
+        "create": "New interview",
+        "view": "View overview",
+        "update": "Update interview",
+        "updateStatus": "Update details",
+        "updateUsers": "Update users",
+        "updateConsent": "Update consent",
+        "viewQuestions": "View questions",
+        "updateQuestions": "Update questions",
+        "viewResponses": "View report",
+        "updatesDisabled": "You cannot update this interview because it is complete",
+        "questionsDisabled": "You cannot update questions for this interview because it is",
+        "reportsDisabled": "You can can view reports for this interview once it has been published",
+        "empty": "We couldn't find any interviews for you. Try changing the filters or create new one.",
+        "headings": ["Title", "Responses", "Status", "Assignees", "Last updated"],
+        "filters": [
+            {
+                "title": "View",
+                "field": "is_archived",
+                "options": [
+                    {"label": "All", "value": false},
+                    {"label": "Archived", "value": true}
+                ]
+            },
+            {
+                "title": "Status",
+                "field": "status",
+                "options": [
+                    {"label": "Any", "theme": "white", "value": "any"},
+                    {"label": "Draft", "theme": "yellow", "value": "draft"},
+                    {"label": "Active", "theme": "orange", "value": "active"},
+                    {"label": "Complete", "theme": "green", "value": "complete"}
+                ]
+            }
+        ],
+        "anyDescription": "All interviews",
+        "draft": "Draft",
+        "draftDescription": "Interviews are still being finalised",
+        "active": "Active",
+        "activeDescription": "Interviews are being conducted",
+        "complete": "Complete",
+        "completeDescription": "Interviews are finished and all reports recorded",
+        "locked": {
+            "title": "Interview locked",
+            "text": "You cannot edit interviews once they have been completed."
+        }
+    },
+    "interviewsTabBar": {
+        "overview": "Overview",
+        "details": "Details",
+        "users": "Users",
+        "consent": "Consent",
+        "questions": "Questions",
+        "report": "Report"
+    },
+    "interviewsCreate": {
+        "title": "Create an interview",
+        "interview": {
+            "_title": "Interview details",
+            "text": "These details will be visible on the App. After creating your interview you can then assign users on the next page.",
+            "title": {
+                "empty": "Please enter a title",
+                "maxLength": "Titles can only be 150 characters or less",
+                "label": "Title"
+            },
+            "description": {
+                "empty": "Please enter a description",
+                "maxLength": "Descriptions can only be 500 characters or less",
+                "label": "Description"
+            },
+            "is_active": {
+                "description": "Only published interviews can be viewed on the App.",
+                "label": "Publish on App"
+            },
+            "submit": "Create interview and continue",
+            "createSuccess": {
+                "title": "Interview created",
+                "text": "The interview was successfully created. You can now assign users to the interview."
+            }
+        }
+    },
+    "interviewsUpdate": {
+        "title": "Update an interview",
+        "detailsLocked": "This interview has finished and its details cannot be changed.",
+        "questionsLocked": "Questions can only be modified when the interview is in draft status.",
+        "details": {
+            "title": "Interview details",
+            "text": "These details will be visible on the App.",
+            "submit": "Update interview",
+            "updateSuccess": {
+                "title": "Interview updated",
+                "text": "The interview was successfully updated."
+            }
+        },
+        "status": {
+            "title": "Confirm status change",
+            "text_draft": "Draft interviews will not be visible on the App. You can update its details and add or modify questions after updating.",
+            "text_active": "Active interviews will be visible on the App. You cannot update its details and add or modify questions after updating.",
+            "text_complete": "Complete interviews will not be visible on the App. You cannot update its details and add or modify questions after updating.",
+            "submit": "Continue and update interview",
+            "cancel": "Cancel"
+        },
+        "questionsEmpty": {
+            "title": "Cannot update interview status",
+            "text": "The interview cannot be updated because it has no questions. Once you have added at least one question you can come back and change the status.",
+            "submit": "Save interview and add questions",
+            "cancel": "Cancel"
+        },
+        "consentEmpty": {
+            "title": "Cannot update interview status",
+            "text": "The interview cannot be updated because there is missing consent information. Once you have completed the consent requirements you can come back and change the status.",
+            "submit": "Save interview and add consent",
+            "cancel": "Cancel"
+        },
+        "users": {
+            "title": "Assign users",
+            "text": "Only assigned users will be able to view this interview on the App. Users must be assigned to this interview's project to be listed as an available user.",
+            "submit": "Update users"
+        },
+        "useConsentTemplate": {
+            "addCta": "Use a template",
+            "removeCta": "Remove",
+            "remove": {
+                "title": "Remove consent step",
+                "text": "Are you sure you want to remove this consent step?",
+                "cancel": "Cancel",
+                "submit": "Remove consent step"
+            }
+        },
+        "consent_step_1": {
+            "_title": "Consent step 1",
+            "text": "This first step of consent content will be shown to informants before they respond to the interview.",
+            "submit": "Save consent step 1"
+        },
+        "consent_step_2": {
+            "_title": "Consent step 2",
+            "text": "This consent content will be shown to the user after the first step.",
+            "submit": "Save consent step 2"
+        },
+        "consent_template": {
+            "_title": "Template details",
+            "text": "These details can be used to pre-fill consent content when creating an interview.",
+            "submit": "Update consent template"
+        },
+        "restore": {
+            "title": "This interview is archived",
+            "text": "This interview is currently archived. They are not able to log into their account or access interviews.",
+            "cta": "Restore interview",
+            "updateSuccess": {
+                "title": "Interview restored",
+                "text": "The interview has been restored"
+            }
+        },
+        "archive": {
+            "title": "Archive interview",
+            "text": "Archiving an interview will prevent it from being listed on the App.",
+            "cta": "Archive interview",
+            "modal": {
+                "title": "Archive interview",
+
+                "text": "Are you sure you want to archive this interview? Archived interviews will no longer be listed on the App. Once archived, all assigned users will be removed from the interview.",
+                "confirm": "Archive",
+                "cancel": "Cancel"
+            },
+            "updateSuccess": {
+                "title": "Interview archived",
+                "text": "The interview has been archived"
+            }
+        }
+    },
+    "questionsList": {
+        "title": "All questions",
+        "back": "Back to interview",
+        "add": "Select a type...",
+        "create": "Create new question",
+        "template": "Choose a templated question",
+        "importCta": "Import a list of questions",
+        "templateUsedSuccess": {
+            "title": "Question created from template",
+            "text": "You can now update your question's content"
+        },
+        "update": "Update question",
+        "empty": "No questions were found for this interview.",
+        "headings": ["Title", "Type", "Options", "Last updated"],
+        "filters": [
+            {
+                "title": "View",
+                "field": "is_archived",
+                "options": [
+                    {"label": "All", "value": false},
+                    {"label": "Archived", "value": true}
+                ]
+            }
+        ],
+        "reorder": {
+            "title": "Update question order",
+            "text": "Drag 'n' drop the questions to update their order.",
+            "language": "Language",
+            "submit": "Update order",
+            "cancel": "Cancel",
+            "orderError": {
+                "title": "Order not updated",
+                "text": "The question order wasn't updated. Please try again."
+            },
+            "updateSuccess": {
+                "title": "Questions ordered",
+                "text": "The questions were successfully reordered"
+            }
+        },
+        "locked": {
+            "title": "Questions locked",
+            "text": "You can only edit questions for an interview before it is published."
+        },
+        "export": {
+            "title": "Prepare questions export",
+            "text": "You are about to export all of the questions for this interview.",
+            "confirm": "Export questions",
+            "cancel": "Cancel",
+            "downloading": "The report will now begin to download...",
+            "type": "File type"
+        },
+        "import": {
+            "title": "",
+            "text": "<h3 class=\"text-md font-medium leading-6 text-gray-900\">Import questions via spreadsheet</h3><br />1. Download the template spreadsheet below.<br />2. Upload the file below and then import it (only Excel files are supported).<br />3. If there are errors in the file, you will need to address these and re-upload the file.",
+            "confirmText": "Please wait while we import %{size} questions...",
+            "confirm": "Import",
+            "cancel": "Cancel",
+            "error": "There was an error uploading your file.",
+            "invalidType": "Sorry, that file type is not supported",
+            "dropzone": "Drop a file here or select one",
+            "fileCta": "Select a file",
+            "template": {
+                "title": "Download template",
+                "text": "Using the template will ensure the data is imported in the correct format.",
+                "cta": "Download template",
+                "downloading": "The template will now begin to download..."
+            },
+            "success": {
+                "title": "Questions imported",
+                "text": "All questions have been imported successfully."
+            }
+        }
+    },
+    "questionsCreate": {
+        "title": "Create a question",
+        "details": {
+            "title": "Question details",
+            "text": "These details will be visible on the App.",
+            "optionsList": {
+                "label": "Options",
+                "placeholder": "Enter option...",
+                "add": "Add"
+            },
+            "submit": "Create question",
+            "createSuccess": {
+                "title": "Question created",
+                "text": "The question was successfully created. "
+            }
+        }
+    },
+    "questionsUpdate": {
+        "title": "Update questions",
+        "details": {
+            "title": "Question details",
+            "text": "These details will be visible on the App.",
+            "submit": "Update question",
+            "updateSuccess": {
+                "title": "Question updated",
+                "text": "The question was successfully updated. "
+            }
+        },
+        "restore": {
+            "title": "This question is archived",
+            "text": "This question is currently archived. It will not be shown in its parent interview.",
+            "cta": "Restore question",
+            "updateSuccess": {
+                "title": "Question restored",
+                "text": "The question has been restored"
+            }
+        },
+        "archive": {
+            "title": "Archive question",
+            "text": "Archiving a question will prevent it from being included in the parent interview.",
+            "cta": "Archive question",
+            "modal": {
+                "title": "Archive question",
+                "text": "Are you sure you want to archive this question? Archived questions are no longer included in their parent interview.",
+                "confirm": "Archive",
+                "cancel": "Cancel"
+            },
+            "updateSuccess": {
+                "title": "Question archived",
+                "text": "The question has been archived"
+            }
+        }
+    },
+    "reportsList": {
+        "title": "Interview report",
+        "locked": {
+            "title": "Not available",
+            "text": "Responses cannot be viewed for draft interviews."
+        },
+        "empty": "There have been no responses to this interview. Please check back later.",
+        "back": "All interviews",
+        "stats": {
+            "title": "Interview stats",
+            "responses": "Respondent count",
+            "genders": "Respondent gender",
+            "male": "Male",
+            "female": "Female",
+            "other": "Other",
+            "duration": "Median interview duration",
+            "beneficiary": "Beneficiary",
+            "additionalConsent": "Additional consent required",
+            "counts": "Responses",
+            "flagged": "Flagged",
+            "skipped": "Skipped",
+            "starred": "Starred",
+            "ignored": "Ignored",
+            "times": "time"
+        },
+        "allQuestionsFiltered": "Responses",
+        "filters": {
+            "flagged": "Flagged responses",
+            "skipped": "Skipped questions",
+            "starred": "Starred responses",
+            "ignored": "Ignored responses"
+        },
+        "activeInterview": "This interview is still ongoing, this data will change as more responses are submitted",
+        "questions": "Questions overview",
+        "question": "Question",
+        "transcriptionAnalysis": "Transcription analysis",
+        "showAll": "Show all responses",
+        "responses": "response",
+        "responsesCta": "View open responses",
+        "probing": "probing question(s) added:",
+        "responsesModal": {
+            "title": "Open responses",
+            "text": "All open responses",
+            "close": "Return to report"
+        },
+        "proof": {
+            "cta": "Proof %{type}",
+            "ctaProofed": "View original",
+            "cancel": "Cancel",
+            "isProofed": "Proofed",
+            "isTranslated": "Translated",
+            "isFlagged": "Flagged",
+            "isSkipped": "Skipped",
+            "isStarred": "Starred",
+            "usedTranscription": "Used transcription",
+            "proofed": "Proofed %{type}",
+            "proofedBy": "Proofed by",
+            "original": "Original %{type}",
+            "add": "Add proofed %{type}",
+            "save": "Save",
+            "success": {
+                "title": "Proofed successfully",
+                "text": "The %{type} was successfully proofed"
+            }
+        },
+        "enumeratorNotes": {
+            "_title": "Enumerator notes",
+            "cta": "View enumerator notes",
+            "title": "Enumerator notes"
+        },
+        "transcription": {
+            "cta": "View transcription analysis",
+            "subtitle": "All open responses and probing questions",
+            "title": "Voice to Text transcription analysis",
+            "total": "Transcription used",
+            "totalLabel": "open responses",
+            "average": "Average similarity",
+            "used": "Used transcription",
+            "notUsed": "Did not use transcription"
+        },
+        "export": {
+            "title": "Prepare %{type} export",
+            "text": "You are about to export all of the data that was recorded. Remember to maintain best practice for storing sensitive information and delete files when they are no longer required.",
+            "confirm": "Export %{type} data",
+            "cancel": "Cancel",
+            "downloading": "The report will now begin to download...",
+            "fields": "Exported fields",
+            "type": "File type"
+        },
+        "exported": {
+            "title": "Generating report export",
+            "text": "Please allow time for the report to generate. Depending on the size of the response data it may take a while."
+        },
+        "exportFields": {
+            "age": "The respondent's age",
+            "project": "The title of the interview's parent project",
+            "interview": "The title of the interview",
+            "gender": "The respondent's gender",
+            "consent_relationship": "The relationship between the respondent and the person who confirmed additional consent",
+            "start_time": "The time the interview started",
+            "end_time": "The time the interview ended",
+            "enumerator_id": "The ID of the enumerator who conducted the interview",
+            "enumerator_name": "The name of the enumerator who conducted the interview",
+            "enumerator_notes": "The notes added by the enumerator at the interview",
+            "title": "The question title (included for each question)",
+            "answer": "The response to the question (included for each question)",
+            "beneficiary": "The respondent's beneficiary status",
+            "used_transcription": "The use of Voice to Text when adding an open response",
+            "flagged": "The flagged status of the response (included for each question)",
+            "proofed": "The proofed status of the response (included for each question)",
+            "skipped": "The skipped status of the response (included for each question)",
+            "ignored": "The ignored status of the response (included for each question)",
+            "starred": "The starred status of the response (included for each question)",
+            "original_answer": "The original answer before it was proofed or translated",
+            "translated": "The translated status of a response"
+        }
+    },
+    "templatesList": {
+        "title": "All templates",
+        "create": "New template",
+        "update": "Update template",
+        "empty": "No templates where found. Try changing the filters or create new one.",
+        "headings": ["Title", "Type", "Last updated"],
+        "filters": [
+            {
+                "title": "View",
+                "field": "is_archived",
+                "options": [
+                    {"label": "All", "value": false},
+                    {"label": "Archived", "value": true}
+                ]
+            },
+            {
+                "title": "Type",
+                "field": "type",
+                "options": [
+                    {"label": "Any", "value": "any"},
+                    {"label": "Consent", "theme": "orange", "value": "consent"},
+                    {"label": "Probing question", "theme": "blue", "value": "probing_question"},
+                    {"label": "Question", "theme": "green", "value": "question"}
+                ]
+            }
+        ]
+    },
+    "templatesSections": {
+        "createDocument": {
+            "submit": "Create template",
+            "success": {
+                "title": "Template created",
+                "text": "The template was successfully created."
+            }
+        },
+        "updateDocument": {
+            "submit": "Update template",
+            "success": {
+                "title": "Template updated",
+                "text": "The template was successfully updated."
+            }
+        },
+        "consent": {
+            "create": {
+                "title": "Create a consent template"
+            },
+            "update": {
+                "title": "Update a consent template"
+            },
+            "details": {
+                "title": "Template details",
+                "text": "These details can be used to pre-fill consent content when creating an interview."
+            }
+        },
+        "question": {
+            "create": {
+                "title": "Create a question template"
+            },
+            "update": {
+                "title": "Update a question template"
+            },
+            "details": {
+                "title": "Template details",
+                "text": "These details can be used to create new questions for interviews, with pre-filled options and details."
+            }
+        },
+        "probing_question": {
+            "create": {
+                "title": "Create a probing question template"
+            },
+            "update": {
+                "title": "Update a probing question template"
+            },
+            "details": {
+                "title": "Template details",
+                "text": "These details can be used to populate the list of probing questions used on the App"
+            }
+        },
+        "restore": {
+            "title": "This template is archived",
+            "text": "This template is currently archived. It cannot be used to pre-fill content.",
+            "cta": "Restore template",
+            "updateSuccess": {
+                "title": "Template restored",
+                "text": "The template has been restored"
+            }
+        },
+        "archive": {
+            "title": "Archive template",
+            "text": "Archiving a template will prevent it from being used to pre-fill content.",
+            "cta": "Archive template",
+            "modal": {
+                "title": "Archive template",
+                "text": "Are you sure you want to archive this template? Archived templates can no longer be used to pre-fill content.",
+                "confirm": "Archive",
+                "cancel": "Cancel"
+            },
+            "updateSuccess": {
+                "title": "Template archived",
+                "text": "The template has been archived"
+            }
+        }
+    },
+    "templatesFields": {
+        "question_optionsList": {
+            "label": "Options:",
+            "placeholder": "Enter an option...",
+            "add": "Add"
+        },
+        "probing_question_title": {
+            "empty": "Please enter a probing question title",
+            "maxLength": "Probing question titles can only be 100 characters or less",
+            "label": "Probing question title"
+        },
+        "probing_question_description": {
+            "description": "This is used to give context to the probing question when viewed in the App",
+            "empty": "Please enter a description",
+            "maxLength": "Descriptions can only be 500 characters or less",
+            "label": "Question description"
+        },
+        "primary_language": {
+            "empty": "Please select the primary language",
+            "description": "Templates will only be available for interviews that use the same primary language.",
+            "label": "Primary language"
+        }
+    },
+    "templatesSelector": {
+        "title": "Select a template",
+        "text": "Choose a template from below. After selecting a template, you can modify the content in the form.",
+        "empty": "No templates found.",
+        "usage": "Usage:",
+        "cancel": "Cancel"
+    },
+    "usersList": {
+        "title": "All users",
+        "create": "Invite",
+        "invites": "Pending invites",
+        "update": "Update details",
+        "empty": "No users found. Try changing the filters.",
+        "headings": ["Name", "Company", "Country", "Role"],
+        "filters": [
+            {
+                "title": "View",
+                "field": "is_archived",
+                "options": [
+                    {"label": "All", "value": false},
+                    {"label": "Archived", "value": true}
+                ]
+            },
+            {
+                "title": "Role",
+                "field": "role",
+                "options": [
+                    {"label": "Any", "value": "any"},
+                    {"label": "Administrator", "theme": "green", "value": "administrator"},
+                    {"label": "Assessment Lead", "theme": "orange", "value": "assessment_lead"},
+                    {"label": "Enumerator", "theme": "yellow", "value": "enumerator"}
+                ]
+            },
+            {
+                "title": "Project",
+                "field": "project",
+                "options": []
+            },
+            {
+                "title": "Country",
+                "field": "country",
+                "options": []
+            }
+        ],
+        "export": {
+            "title": "Prepare export",
+            "text": "You are about to export data on all VoiceApp users. Remember to maintain best practice for storing sensitive information and delete files when they are no longer required.",
+            "confirm": "Export data",
+            "cancel": "Cancel",
+            "downloading": "The report will now begin to download...",
+            "fields": "Exported fields",
+            "type": "File type"
+        },
+        "exportFields": {
+            "company_name": "The company the user works for",
+            "country": "The country the user resides in",
+            "created_at": "When the user accepted their invite",
+            "email": "The user's email address",
+            "first_name": "The user's first name",
+            "invited_by": "Who invited the user",
+            "is_archived": "Whether the user is archived or not",
+            "is_available_for_projects": "Whether the user is available for projects or not",
+            "last_active": "When the user was last active",
+            "last_name": "The user's last name",
+            "role": "The user's role",
+            "updated_at": "When the user's details were updated"
+        },
+        "import": {
+            "title": "",
+            "text": "<h3 class=\"text-md font-medium leading-6 text-gray-900\">Import users via spreadsheet</h3><br />1. Download the template spreadsheet below<br />2. Populate the spreadsheet with the user information, completing all fields and using the country and role drop downs provided.<br />3. Upload the file below and then import it (only Excel files are supported).<br />4. If there are errors in the file, you will need to address these and re-upload the file.<br />5. Once users have been imported, they will receive an invitation via email. Users should follow instructions in the email to complete their registration.<br /><br /><em>Note that this function is only available for importing assessment leads and enumerators. All admin users should be added using the invite user function.</em>",
+            "confirmText": "Please wait while we import %{size} users...",
+            "confirm": "Import",
+            "cancel": "Cancel",
+            "error": "There was an error uploading your file.",
+            "invalidType": "Sorry, that file type is not supported",
+            "dropzone": "Drop a file here or select one",
+            "fileCta": "Select a file",
+            "template": {
+                "title": "Download template",
+                "text": "Using the template will ensure the data is imported in the correct format.",
+                "cta": "Download template",
+                "downloading": "The template will now begin to download..."
+            },
+            "success": {
+                "title": "Users imported",
+                "text": "All users have now been invited. We have sent emails with details to complete their registration."
+            }
+        }
+    },
+    "invitesList": {
+        "title": "All pending invites",
+        "empty": "No pending invites found.",
+        "headings": ["Name", "Company", "Country", "Role", "Invited"],
+        "back": "All users",
+        "resend": "Resend invite email",
+        "revoke": "Revoke invite",
+        "revokeSuccess": {
+            "title": "Invite revoked",
+            "text": "You have successfully revoked the invitation"
+        },
+        "resendInvitationSuccess": {
+            "title": "Invite email sent",
+            "text": "You have successfully resent the invitation email"
+        }
+    },
+    "usersCreate": {
+        "title": "Invite a user",
+        "profile": {
+            "title": "User details",
+            "text": "Users will be sent an email invite to VoiceApp. Once they complete their registration you can assign them to projects and interviews.",
+            "submit": "Invite user",
+            "updateSuccess": {
+                "title": "User invited",
+                "text": "The user has successfully been invited"
+            }
+        }
+    },
+    "usersUpdate": {
+        "title": "Update a user",
+        "profile": {
+            "title": "User details",
+            "text": "These details will be visible to other users on the VoiceApp Data Hub.",
+            "submit": "Update details",
+            "updateSuccess": {
+                "title": "User updated",
+                "text": "The user's details were successfully updated"
+            }
+        },
+        "password": {
+            "title": "User password",
+            "text": "The user's password is used to authenticate to both the Data Hub and App."
+        },
+        "role": {
+            "title": "User role",
+            "text": "The user's role determines what level of data they have access to and what actions they can perform.",
+            "submit": "Update role"
+        },
+        "restore": {
+            "title": "This user is archived",
+            "text": "This user is currently archived. They are not able to log into their account or access projects.",
+            "cta": "Restore user",
+            "updateSuccess": {
+                "title": "User restored",
+                "text": "The user has been restored"
+            }
+        },
+        "archive": {
+            "title": "Archive user",
+            "text": "Archiving a user will prevent the user from accessing the VoiceApp Data Hub or App. However, it will not delete their data.",
+            "cta": "Archive user",
+            "modal": {
+                "title": "Archive user",
+                "text": "Are you sure you want to archive this user? Archived users are no longer able to access their projects or log-in to their accounts.",
+                "confirm": "Archive",
+                "cancel": "Cancel"
+            },
+            "updateSuccess": {
+                "title": "User archived",
+                "text": "The user has been archived"
+            }
+        },
+        "projectsList": {
+            "title": "Assigned Projects",
+            "text": "These are the projects and interviews the user is assigned to.",
+            "empty": "This user is not assigned to any projects or interviews"
+        },
+        "activitiesList": {
+            "title": "Activity",
+            "text": "View the activity of this user."
+        }
+    },
+    "activitiesList": {
+        "title": "All activity",
+        "empty": "No activity was found. Please check back later.",
+        "headings": ["Action", "Type", "User", "Date"],
+        "filters": [
+            {
+                "title": "Type",
+                "field": "type",
+                "options": [
+                    {"label": "All", "value": "any"},
+                    {"label": "Project", "theme": "blue", "value": "Project"},
+                    {"label": "Interview", "theme": "green", "value": "Interview"},
+                    {"label": "Report", "theme": "green", "value": "Report"},
+                    {"label": "Response", "theme": "green", "value": "Response"},
+                    {"label": "Question", "theme": "yellow", "value": "Question"},
+                    {"label": "Export", "theme": "orange", "value": "Export"},
+                    {"label": "Template", "theme": "blue", "value": "Template"},
+                    {"label": "User", "theme": "red", "value": "User"}
+                ]
+            }
+        ]
+    }
+}

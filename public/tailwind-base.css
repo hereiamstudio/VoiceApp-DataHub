@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+
+.diff-container * {
+    @apply font-normal font-sans leading-tight text-base;
+}
+
+/**
+ * MVP RTL support.
+ */
+[data-lang='ar'] .has-rtl input,
+[data-lang='ar'] .has-rtl textarea,
+[data-lang='ar'] .has-rtl button,
+[data-lang='ar'] .has-rtl .c-reorder-button span {
+    direction: rtl;
+    /* unicode-bidi: bidi-override; */
+}
+[data-lang='ar'] .has-rtl .c-reorder-button span {
+    width: 100%;
+    text-align: right;
+}
+[data-lang='ar'] .has-rtl .c-reorder-button [data-icon='cross'] {
+    /* [1] */
+    margin-left: 0;
+    margin-right: theme('spacing.2');
+}
+[data-lang='ar'] .has-rtl .c-reorder-button [data-icon='handle'] {
+    /* [2] */
+    margin-left: theme('spacing.2');
+    margin-right: 0;
+}
+
+form[autocomplete='off'] input[type='text'] {
+    background-position: 150% 50% !important;
+}
+
+.spinner {
+    animation: rotate 2s linear infinite;
+    z-index: 2;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.spinner-path {
+    stroke: currentColor;
+    stroke-linecap: round;
+    animation: dash 1.5s ease-in-out infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes dash {
+    0% {
+        stroke-dasharray: 1, 150;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -35;
+    }
+    100% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -124;
+    }
+}
